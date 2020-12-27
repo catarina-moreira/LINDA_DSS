@@ -1,0 +1,1123 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.17.0";
+  node_size = (50 50);
+}
+
+node radius_mean {
+   states = ("(8.0000, 27.2000]" );
+   label = "radius_mean";
+   ID = "radius_mean";
+}
+
+node texture_mean {
+   states = ("(14.000, 34.0000]" "(34.000, 38.8000]" );
+   label = "texture_mean";
+   ID = "texture_mean";
+}
+
+node perimeter_mean {
+   states = ("(163.00000, 188.4000]" "(62.00000, 163.4000]" );
+   label = "perimeter_mean";
+   ID = "perimeter_mean";
+}
+
+node area_mean {
+   states = ("(1835.000000, 2235.5000]" "(197.8900, 1835.3000]" );
+   label = "area_mean";
+   ID = "area_mean";
+}
+
+node smoothness_mean {
+   states = ("(0.000, 0.1000]" "(0.0000, 0.1000]" );
+   label = "smoothness_mean";
+   ID = "smoothness_mean";
+}
+
+node compactness_mean {
+   states = ("(0.000, 0.3000]" "(0.0000, 0.2000]" );
+   label = "compactness_mean";
+   ID = "compactness_mean";
+}
+
+node concavity_mean {
+   states = ("(0.0000, 0.4000]" );
+   label = "concavity_mean";
+   ID = "concavity_mean";
+}
+
+node concave points_mean {
+   states = ("(-0.0059, 0.0000]" "(0.0000, 0.0900]" "(0.0000, 0.1000]" );
+   label = "concave points_mean";
+   ID = "concave points_mean";
+}
+
+node symmetry_mean {
+   states = ("(0.00, 0.1000]" "(0.000, 0.2000]" );
+   label = "symmetry_mean";
+   ID = "symmetry_mean";
+}
+
+node fractal_dimension_mean {
+   states = ("(0.00000, 0.0600]" "(0.00000, 0.0900]" "(0.0419, 0.0500]" );
+   label = "fractal_dimension_mean";
+   ID = "fractal_dimension_mean";
+}
+
+node radius_se {
+   states = ("(0.1399, 2.8000]" );
+   label = "radius_se";
+   ID = "radius_se";
+}
+
+node texture_se {
+   states = ("(0.000, 0.7000]" "(0.000, 2.2000]" "(2.000, 3.7000]" );
+   label = "texture_se";
+   ID = "texture_se";
+}
+
+node perimeter_se {
+   states = ("(1.000, 8.3000]" "(8.0000, 21.8000]" );
+   label = "perimeter_se";
+   ID = "perimeter_se";
+}
+
+node area_se {
+   states = ("(11.00000, 482.0000]" "(482.00000, 534.1000]" );
+   label = "area_se";
+   ID = "area_se";
+}
+
+node smoothness_se {
+   states = ("(-0.0062, 0.0200]" "(0.0000, 0.0000]" );
+   label = "smoothness_se";
+   ID = "smoothness_se";
+}
+
+node compactness_se {
+   states = ("(0.0000, 0.1000]" "(0.0029, 0.0600]" );
+   label = "compactness_se";
+   ID = "compactness_se";
+}
+
+node concavity_se {
+   states = ("(0.0000, 0.2000]" );
+   label = "concavity_se";
+   ID = "concavity_se";
+}
+
+node concave points_se {
+   states = ("(-0.0043, 0.0300]" );
+   label = "concave points_se";
+   ID = "concave points_se";
+}
+
+node symmetry_se {
+   states = ("(-0.0017, 0.0100]" "(0.00000, 0.0200]" "(0.00000, 0.0500]" );
+   label = "symmetry_se";
+   ID = "symmetry_se";
+}
+
+node fractal_dimension_se {
+   states = ("(-0.0088, 0.0010]" "(0.0013, 0.0060]" "(0.0064, 0.0090]" );
+   label = "fractal_dimension_se";
+   ID = "fractal_dimension_se";
+}
+
+node radius_worst {
+   states = ("(11.0000, 13.8000]" "(13.0000, 33.4000]" "(33.0000, 35.2000]" );
+   label = "radius_worst";
+   ID = "radius_worst";
+}
+
+node texture_worst {
+   states = ("(15.0000, 23.0000]" "(23.000, 31.0000]" "(31.000, 40.7000]" );
+   label = "texture_worst";
+   ID = "texture_worst";
+}
+
+node perimeter_worst {
+   states = ("(144.00000, 236.5000]" "(89.00000, 144.5000]" );
+   label = "perimeter_worst";
+   ID = "perimeter_worst";
+}
+
+node area_worst {
+   states = ("(257.0000, 581.0000]" "(581.00000, 3893.2000]" );
+   label = "area_worst";
+   ID = "area_worst";
+}
+
+node smoothness_worst {
+   states = ("(0.000, 0.2000]" "(0.0750, 0.1000]" );
+   label = "smoothness_worst";
+   ID = "smoothness_worst";
+}
+
+node compactness_worst {
+   states = ("(0.000, 0.2000]" "(0.000, 0.9000]" );
+   label = "compactness_worst";
+   ID = "compactness_worst";
+}
+
+node concavity_worst {
+   states = ("(0.000, 1.1000]" "(0.0029, 0.1000]" );
+   label = "concavity_worst";
+   ID = "concavity_worst";
+}
+
+node concave points_worst {
+   states = ("(0.000, 0.0000]" "(0.0009, 0.0800]" );
+   label = "concave points_worst";
+   ID = "concave points_worst";
+}
+
+node symmetry_worst {
+   states = ("(0.000, 0.3000]" "(0.000, 0.6000]" );
+   label = "symmetry_worst";
+   ID = "symmetry_worst";
+}
+
+node fractal_dimension_worst {
+   states = ("(0.0000, 0.1000]" "(0.00000, 0.0700]" );
+   label = "fractal_dimension_worst";
+   ID = "fractal_dimension_worst";
+}
+
+node diagnosis {
+   states = (No Yes );
+   label = "diagnosis";
+   ID = "diagnosis";
+}
+
+potential ( radius_mean | texture_se   diagnosis   fractal_dimension_mean   symmetry_worst   smoothness_mean   fractal_dimension_worst   ) {
+   data = 
+   (((((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))))));   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+}
+
+potential ( texture_mean | diagnosis   ) {
+   data = 
+   ((   0.98538   0.0146199)   % diagnosis=No   
+   (   0.998845   0.00115473));   % diagnosis=Yes   
+}
+
+potential ( perimeter_mean | diagnosis   ) {
+   data = 
+   ((   0.0263158   0.973684)   % diagnosis=No   
+   (   0.00115473   0.998845));   % diagnosis=Yes   
+}
+
+potential ( area_mean | diagnosis   ) {
+   data = 
+   ((   0.0380117   0.961988)   % diagnosis=No   
+   (   0.00115473   0.998845));   % diagnosis=Yes   
+}
+
+potential ( smoothness_mean | concave points_mean   ) {
+   data = 
+   ((   0.0676856   0.932314)   % concave points_mean="(-0.0059, 0.0000]"   
+   (   0.000749625   0.99925)   % concave points_mean="(0.0000, 0.0900]"   
+   (   0.05   0.95));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( compactness_mean | diagnosis   ) {
+   data = 
+   ((   0.0497076   0.950292)   % diagnosis=No   
+   (   0.00115473   0.998845));   % diagnosis=Yes   
+}
+
+potential ( concavity_mean | diagnosis   fractal_dimension_mean   symmetry_worst   perimeter_mean   fractal_dimension_worst   texture_se   ) {
+   data = 
+   (((((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1)))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   (   1))))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 0.7000]"   
+   ((((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   (   1))))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(0.000, 2.2000]"   
+   ((((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1))))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(163.00000, 188.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   ((((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+   (   1)))))));   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   perimeter_mean="(62.00000, 163.4000]"   fractal_dimension_worst="(0.00000, 0.0700]"   texture_se="(2.000, 3.7000]"   
+}
+
+potential ( concave points_mean | diagnosis   fractal_dimension_mean   ) {
+   data = 
+   (((   0.985601   0.0136789   0.000719942)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   
+   (   0.00392157   0.780392   0.215686))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   
+   ((   0.00680272   0.986395   0.00680272)   % diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   
+   (   0.333333   0.333333   0.333333))   % diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   
+   ((   0.333333   0.333333   0.333333)   % diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   0.000274801   0.99945   0.000274801)));   % diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+potential ( symmetry_mean | concave points_mean   fractal_dimension_mean   ) {
+   data = 
+   (((   0.99927   0.000729927)   % concave points_mean="(-0.0059, 0.0000]"   fractal_dimension_mean="(0.00000, 0.0600]"   
+   (   0.5   0.5)   % concave points_mean="(0.0000, 0.0900]"   fractal_dimension_mean="(0.00000, 0.0600]"   
+   (   0.982143   0.0178571))   % concave points_mean="(0.0000, 0.1000]"   fractal_dimension_mean="(0.00000, 0.0600]"   
+   ((   0.5   0.5)   % concave points_mean="(-0.0059, 0.0000]"   fractal_dimension_mean="(0.00000, 0.0900]"   
+   (   0.993151   0.00684932)   % concave points_mean="(0.0000, 0.0900]"   fractal_dimension_mean="(0.00000, 0.0900]"   
+   (   0.5   0.5))   % concave points_mean="(0.0000, 0.1000]"   fractal_dimension_mean="(0.00000, 0.0900]"   
+   ((   0.5   0.5)   % concave points_mean="(-0.0059, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   0.999725   0.000274876)   % concave points_mean="(0.0000, 0.0900]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   0.5   0.5)));   % concave points_mean="(0.0000, 0.1000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+potential ( fractal_dimension_mean | diagnosis   ) {
+   data = 
+   ((   0.902534   0.0955166   0.00194932)   % diagnosis=No   
+   (   0.0654349   0.000769823   0.933795));   % diagnosis=Yes   
+}
+
+potential ( radius_se | texture_se   diagnosis   fractal_dimension_mean   symmetry_worst   smoothness_mean   fractal_dimension_worst   ) {
+   data = 
+   (((((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   1))))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   1)))))));   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   smoothness_mean="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+}
+
+potential ( texture_se | fractal_dimension_mean   ) {
+   data = 
+   ((   0.997567   0.00121655   0.00121655)   % fractal_dimension_mean="(0.00000, 0.0600]"   
+   (   0.973333   0.0133333   0.0133333)   % fractal_dimension_mean="(0.00000, 0.0900]"   
+   (   0.0697419   0.90994   0.0203185));   % fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+potential ( perimeter_se | texture_se   ) {
+   data = 
+   ((   0.998529   0.00147059)   % texture_se="(0.000, 0.7000]"   
+   (   0.955696   0.0443038)   % texture_se="(0.000, 2.2000]"   
+   (   0.961538   0.0384615));   % texture_se="(2.000, 3.7000]"   
+}
+
+potential ( area_se | concavity_mean   ) {
+   data = 
+   ((   0.995033   0.00496689));   % concavity_mean="(0.0000, 0.4000]"   
+}
+
+potential ( smoothness_se | radius_mean   ) {
+   data = 
+   ((   0.995033   0.00496689));   % radius_mean="(8.0000, 27.2000]"   
+}
+
+potential ( compactness_se | texture_se   ) {
+   data = 
+   ((   0.00147059   0.998529)   % texture_se="(0.000, 0.7000]"   
+   (   0.0334539   0.966546)   % texture_se="(0.000, 2.2000]"   
+   (   0.0384615   0.961538));   % texture_se="(2.000, 3.7000]"   
+}
+
+potential ( concavity_se | texture_se   diagnosis   fractal_dimension_mean   symmetry_worst   fractal_dimension_worst   compactness_mean   ) {
+   data = 
+   (((((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   (   1))))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   
+   ((((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+   (   1)))))));   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   
+}
+
+potential ( concave points_se | fractal_dimension_worst   compactness_mean   texture_se   diagnosis   fractal_dimension_mean   symmetry_worst   ) {
+   data = 
+   (((((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   ((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.3000]"   
+   (((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   ((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.3000]"   
+   (((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   ((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   (   1))))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.3000]"   
+   ((((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   ((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0600]"   symmetry_worst="(0.000, 0.6000]"   
+   (((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   ((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_worst="(0.000, 0.6000]"   
+   (((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   ((((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 0.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(0.000, 2.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.000, 0.3000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % fractal_dimension_worst="(0.0000, 0.1000]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+   (   1)))))));   % fractal_dimension_worst="(0.00000, 0.0700]"   compactness_mean="(0.0000, 0.2000]"   texture_se="(2.000, 3.7000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_worst="(0.000, 0.6000]"   
+}
+
+potential ( symmetry_se | perimeter_se   compactness_se   texture_se   ) {
+   data = 
+   ((((   0.333333   0.333333   0.333333)   % perimeter_se="(1.000, 8.3000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   (   0.333333   0.333333   0.333333))   % perimeter_se="(8.0000, 21.8000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   0.999509   0.00024564   0.00024564)   % perimeter_se="(1.000, 8.3000]"   compactness_se="(0.0029, 0.0600]"   texture_se="(0.000, 0.7000]"   
+   (   0.333333   0.333333   0.333333)))   % perimeter_se="(8.0000, 21.8000]"   compactness_se="(0.0029, 0.0600]"   texture_se="(0.000, 0.7000]"   
+   (((   0.990868   0.00456621   0.00456621)   % perimeter_se="(1.000, 8.3000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   0.333333   0.333333   0.333333))   % perimeter_se="(8.0000, 21.8000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   0.305896   0.652785   0.0413196)   % perimeter_se="(1.000, 8.3000]"   compactness_se="(0.0029, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   0.993127   0.00343643   0.00343643)))   % perimeter_se="(8.0000, 21.8000]"   compactness_se="(0.0029, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (((   0.333333   0.333333   0.333333)   % perimeter_se="(1.000, 8.3000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   0.333333   0.333333   0.333333))   % perimeter_se="(8.0000, 21.8000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   0.986395   0.00680272   0.00680272)   % perimeter_se="(1.000, 8.3000]"   compactness_se="(0.0029, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   0.333333   0.333333   0.333333))));   % perimeter_se="(8.0000, 21.8000]"   compactness_se="(0.0029, 0.0600]"   texture_se="(2.000, 3.7000]"   
+}
+
+potential ( fractal_dimension_se | symmetry_se   ) {
+   data = 
+   ((   0.998788   0.000606061   0.000606061)   % symmetry_se="(-0.0017, 0.0100]"   
+   (   0.0189621   0.944112   0.0369261)   % symmetry_se="(0.00000, 0.0200]"   
+   (   0.969697   0.0151515   0.0151515));   % symmetry_se="(0.00000, 0.0500]"   
+}
+
+potential ( radius_worst | fractal_dimension_se   ) {
+   data = 
+   ((   0.998845   0.000577701   0.000577701)   % fractal_dimension_se="(-0.0088, 0.0010]"   
+   (   0.0580169   0.931435   0.0105485)   % fractal_dimension_se="(0.0013, 0.0060]"   
+   (   0.948718   0.025641   0.025641));   % fractal_dimension_se="(0.0064, 0.0090]"   
+}
+
+potential ( texture_worst | radius_worst   ) {
+   data = 
+   ((   0.998902   0.000549149   0.000549149)   % radius_worst="(11.0000, 13.8000]"   
+   (   0.112994   0.845198   0.0418079)   % radius_worst="(13.0000, 33.4000]"   
+   (   0.833333   0.0833333   0.0833333));   % radius_worst="(33.0000, 35.2000]"   
+}
+
+potential ( perimeter_worst | area_worst   texture_worst   ) {
+   data = 
+   (((   0.000389105   0.999611)   % area_worst="(257.0000, 581.0000]"   texture_worst="(15.0000, 23.0000]"   
+   (   0.5   0.5))   % area_worst="(581.00000, 3893.2000]"   texture_worst="(15.0000, 23.0000]"   
+   ((   0.467033   0.532967)   % area_worst="(257.0000, 581.0000]"   texture_worst="(23.000, 31.0000]"   
+   (   0.00122249   0.998778))   % area_worst="(581.00000, 3893.2000]"   texture_worst="(23.000, 31.0000]"   
+   ((   0.02   0.98)   % area_worst="(257.0000, 581.0000]"   texture_worst="(31.000, 40.7000]"   
+   (   0.5   0.5)));   % area_worst="(581.00000, 3893.2000]"   texture_worst="(31.000, 40.7000]"   
+}
+
+potential ( area_worst | texture_worst   ) {
+   data = 
+   ((   0.999222   0.000777605)   % texture_worst="(15.0000, 23.0000]"   
+   (   0.182   0.818)   % texture_worst="(23.000, 31.0000]"   
+   (   0.961538   0.0384615));   % texture_worst="(31.000, 40.7000]"   
+}
+
+potential ( smoothness_worst | area_worst   ) {
+   data = 
+   ((   0.00107066   0.998929)   % area_worst="(257.0000, 581.0000]"   
+   (   0.835766   0.164234));   % area_worst="(581.00000, 3893.2000]"   
+}
+
+potential ( compactness_worst | smoothness_worst   ) {
+   data = 
+   ((   0.143478   0.856522)   % smoothness_worst="(0.000, 0.2000]"   
+   (   0.998978   0.00102249));   % smoothness_worst="(0.0750, 0.1000]"   
+}
+
+potential ( concavity_worst | compactness_worst   ) {
+   data = 
+   ((   0.000990099   0.99901)   % compactness_worst="(0.000, 0.2000]"   
+   (   0.752525   0.247475));   % compactness_worst="(0.000, 0.9000]"   
+}
+
+potential ( concave points_worst | concavity_worst   fractal_dimension_worst   ) {
+   data = 
+   (((   0.0135135   0.986486)   % concavity_worst="(0.000, 1.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   (   0.5   0.5))   % concavity_worst="(0.0029, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   
+   ((   0.146018   0.853982)   % concavity_worst="(0.000, 1.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+   (   0.000473037   0.999527)));   % concavity_worst="(0.0029, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0700]"   
+}
+
+potential ( symmetry_worst | concavity_worst   ) {
+   data = 
+   ((   0.833333   0.166667)   % concavity_worst="(0.000, 1.1000]"   
+   (   0.999055   0.00094518));   % concavity_worst="(0.0029, 0.1000]"   
+}
+
+potential ( fractal_dimension_worst | symmetry_worst   concavity_worst   ) {
+   data = 
+   (((   0.292   0.708)   % symmetry_worst="(0.000, 0.3000]"   concavity_worst="(0.000, 1.1000]"   
+   (   0.02   0.98))   % symmetry_worst="(0.000, 0.6000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   0.000473037   0.999527)   % symmetry_worst="(0.000, 0.3000]"   concavity_worst="(0.0029, 0.1000]"   
+   (   0.5   0.5)));   % symmetry_worst="(0.000, 0.6000]"   concavity_worst="(0.0029, 0.1000]"   
+}
+
+potential (diagnosis) {
+   data = (  0.283113 0.716887);
+}
+
+

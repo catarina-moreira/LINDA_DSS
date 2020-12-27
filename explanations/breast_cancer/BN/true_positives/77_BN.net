@@ -1,0 +1,1204 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.17.0";
+  node_size = (50 50);
+}
+
+node radius_mean {
+   states = ("(8.0000, 27.2000]" );
+   label = "radius_mean";
+   ID = "radius_mean";
+}
+
+node texture_mean {
+   states = ("(14.000, 34.0000]" "(34.000, 39.2000]" );
+   label = "texture_mean";
+   ID = "texture_mean";
+}
+
+node perimeter_mean {
+   states = ("(163.00000, 188.4000]" "(62.00000, 163.4000]" );
+   label = "perimeter_mean";
+   ID = "perimeter_mean";
+}
+
+node area_mean {
+   states = ("(1835.000000, 2235.5000]" "(197.8900, 1835.3000]" );
+   label = "area_mean";
+   ID = "area_mean";
+}
+
+node smoothness_mean {
+   states = ("(0.000, 0.1000]" "(0.0000, 0.1000]" );
+   label = "smoothness_mean";
+   ID = "smoothness_mean";
+}
+
+node compactness_mean {
+   states = ("(0.000, 0.3000]" "(0.0000, 0.2000]" );
+   label = "compactness_mean";
+   ID = "compactness_mean";
+}
+
+node concavity_mean {
+   states = ("(0.0000, 0.4000]" );
+   label = "concavity_mean";
+   ID = "concavity_mean";
+}
+
+node concave points_mean {
+   states = ("(-0.0059, 0.0800]" "(0.0000, 0.1000]" "(0.00000, 0.0900]" );
+   label = "concave points_mean";
+   ID = "concave points_mean";
+}
+
+node symmetry_mean {
+   states = ("(0.00, 0.1000]" "(0.000, 0.2000]" );
+   label = "symmetry_mean";
+   ID = "symmetry_mean";
+}
+
+node fractal_dimension_mean {
+   states = ("(0.0000, 0.0000]" "(0.0000, 0.0900]" "(0.0419, 0.0500]" );
+   label = "fractal_dimension_mean";
+   ID = "fractal_dimension_mean";
+}
+
+node radius_se {
+   states = ("(0.000, 0.5000]" "(0.000, 2.8000]" );
+   label = "radius_se";
+   ID = "radius_se";
+}
+
+node texture_se {
+   states = ("(0.000, 0.7000]" "(0.000, 2.2000]" "(2.000, 3.7000]" );
+   label = "texture_se";
+   ID = "texture_se";
+}
+
+node perimeter_se {
+   states = ("(2.0100, 3.0000]" "(3.000, 8.3000]" "(8.0000, 21.8000]" );
+   label = "perimeter_se";
+   ID = "perimeter_se";
+}
+
+node area_se {
+   states = ("(12.0000, 48.9000]" "(48.00000, 482.0000]" "(482.00000, 534.1000]" );
+   label = "area_se";
+   ID = "area_se";
+}
+
+node smoothness_se {
+   states = ("(-0.0062, 0.0050]" "(0.0000, 0.0000]" "(0.0057, 0.0200]" );
+   label = "smoothness_se";
+   ID = "smoothness_se";
+}
+
+node compactness_se {
+   states = ("(0.0000, 0.1000]" "(0.00000, 0.0600]" "(0.0119, 0.0200]" );
+   label = "compactness_se";
+   ID = "compactness_se";
+}
+
+node concavity_se {
+   states = ("(0.000, 0.2000]" );
+   label = "concavity_se";
+   ID = "concavity_se";
+}
+
+node concave points_se {
+   states = ("(0.000, 0.0100]" "(0.00000, 0.0300]" );
+   label = "concave points_se";
+   ID = "concave points_se";
+}
+
+node symmetry_se {
+   states = ("(-0.0017, 0.0100]" "(0.00000, 0.0200]" "(0.00000, 0.0500]" );
+   label = "symmetry_se";
+   ID = "symmetry_se";
+}
+
+node fractal_dimension_se {
+   states = ("(-0.0088, 0.0010]" "(0.0017, 0.0060]" "(0.0064, 0.0090]" );
+   label = "fractal_dimension_se";
+   ID = "fractal_dimension_se";
+}
+
+node radius_worst {
+   states = ("(11.0000, 22.5000]" "(22.0000, 33.4000]" "(33.0000, 35.2000]" );
+   label = "radius_worst";
+   ID = "radius_worst";
+}
+
+node texture_worst {
+   states = ("(15.000, 31.0000]" "(31.000, 44.8000]" );
+   label = "texture_worst";
+   ID = "texture_worst";
+}
+
+node perimeter_worst {
+   states = ("(121.0899, 141.0000]" "(141.0000, 144.5000]" "(144.00000, 236.5000]" );
+   label = "perimeter_worst";
+   ID = "perimeter_worst";
+}
+
+node area_worst {
+   states = ("(1408.000000, 3893.2000]" "(257.000000, 1408.1000]" );
+   label = "area_worst";
+   ID = "area_worst";
+}
+
+node smoothness_worst {
+   states = ("(0.000, 0.2000]" "(0.0750, 0.1000]" );
+   label = "smoothness_worst";
+   ID = "smoothness_worst";
+}
+
+node compactness_worst {
+   states = ("(0.000, 0.3000]" "(0.000, 0.9000]" );
+   label = "compactness_worst";
+   ID = "compactness_worst";
+}
+
+node concavity_worst {
+   states = ("(0.000, 1.1000]" "(0.0029, 0.3000]" );
+   label = "concavity_worst";
+   ID = "concavity_worst";
+}
+
+node concave points_worst {
+   states = ("(0.0009, 0.2000]" );
+   label = "concave points_worst";
+   ID = "concave points_worst";
+}
+
+node symmetry_worst {
+   states = ("(0.000, 0.2000]" "(0.000, 0.6000]" );
+   label = "symmetry_worst";
+   ID = "symmetry_worst";
+}
+
+node fractal_dimension_worst {
+   states = ("(0.0000, 0.1000]" "(0.00000, 0.0800]" );
+   label = "fractal_dimension_worst";
+   ID = "fractal_dimension_worst";
+}
+
+node diagnosis {
+   states = (Yes );
+   label = "diagnosis";
+   ID = "diagnosis";
+}
+
+potential ( radius_mean | smoothness_se   fractal_dimension_mean   smoothness_mean   concave points_mean   compactness_se   ) {
+   data = 
+   ((((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))))));   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   smoothness_mean="(0.0000, 0.1000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+}
+
+potential ( texture_mean | concave points_mean   ) {
+   data = 
+   ((   0.842672   0.157328)   % concave points_mean="(-0.0059, 0.0800]"   
+   (   0.95   0.05)   % concave points_mean="(0.0000, 0.1000]"   
+   (   0.999247   0.000753012));   % concave points_mean="(0.00000, 0.0900]"   
+}
+
+potential ( perimeter_mean | concave points_mean   ) {
+   data = 
+   ((   0.0280172   0.971983)   % concave points_mean="(-0.0059, 0.0800]"   
+   (   0.05   0.95)   % concave points_mean="(0.0000, 0.1000]"   
+   (   0.000753012   0.999247));   % concave points_mean="(0.00000, 0.0900]"   
+}
+
+potential ( area_mean | concave points_mean   ) {
+   data = 
+   ((   0.0409483   0.959052)   % concave points_mean="(-0.0059, 0.0800]"   
+   (   0.05   0.95)   % concave points_mean="(0.0000, 0.1000]"   
+   (   0.000753012   0.999247));   % concave points_mean="(0.00000, 0.0900]"   
+}
+
+potential ( smoothness_mean | concave points_mean   ) {
+   data = 
+   ((   0.0668103   0.93319)   % concave points_mean="(-0.0059, 0.0800]"   
+   (   0.05   0.95)   % concave points_mean="(0.0000, 0.1000]"   
+   (   0.000753012   0.999247));   % concave points_mean="(0.00000, 0.0900]"   
+}
+
+potential ( compactness_mean | concave points_mean   ) {
+   data = 
+   ((   0.0538793   0.946121)   % concave points_mean="(-0.0059, 0.0800]"   
+   (   0.05   0.95)   % concave points_mean="(0.0000, 0.1000]"   
+   (   0.000753012   0.999247));   % concave points_mean="(0.00000, 0.0900]"   
+}
+
+potential ( concavity_mean | smoothness_se   fractal_dimension_mean   concave points_mean   compactness_se   concavity_worst   ) {
+   data = 
+   ((((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))))));   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+}
+
+potential ( concave points_mean | fractal_dimension_mean   ) {
+   data = 
+   ((   0.844282   0.0340633   0.121655)   % fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   0.0133333   0.0133333   0.973333)   % fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   0.000549149   0.000549149   0.998902));   % fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+potential ( symmetry_mean | concave points_mean   fractal_dimension_mean   ) {
+   data = 
+   (((   0.99928   0.000720461)   % concave points_mean="(-0.0059, 0.0800]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   0.982143   0.0178571)   % concave points_mean="(0.0000, 0.1000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   0.455   0.545))   % concave points_mean="(0.00000, 0.0900]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   0.5   0.5)   % concave points_mean="(-0.0059, 0.0800]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   0.5   0.5)   % concave points_mean="(0.0000, 0.1000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   0.993151   0.00684932))   % concave points_mean="(0.00000, 0.0900]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   0.5   0.5)   % concave points_mean="(-0.0059, 0.0800]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   0.5   0.5)   % concave points_mean="(0.0000, 0.1000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   0.999725   0.000274876)));   % concave points_mean="(0.00000, 0.0900]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+potential ( fractal_dimension_mean | radius_se   ) {
+   data = 
+   ((   0.889431   0.0796748   0.0308943)   % radius_se="(0.000, 0.5000]"   
+   (   0.000835422   0.000835422   0.998329));   % radius_se="(0.000, 2.8000]"   
+}
+
+potential ( radius_se | texture_se   ) {
+   data = 
+   ((   0.901471   0.0985294)   % texture_se="(0.000, 0.7000]"   
+   (   0.000904159   0.999096)   % texture_se="(0.000, 2.2000]"   
+   (   0.0384615   0.961538));   % texture_se="(2.000, 3.7000]"   
+}
+
+potential ( texture_se | perimeter_se   ) {
+   data = 
+   ((   0.924614   0.0417802   0.0336058)   % perimeter_se="(2.0100, 3.0000]"   
+   (   0.000648508   0.998703   0.000648508)   % perimeter_se="(3.000, 8.3000]"   
+   (   0.0133333   0.973333   0.0133333));   % perimeter_se="(8.0000, 21.8000]"   
+}
+
+potential (perimeter_se) {
+   data = (  0.405077 0.567329 0.0275938);
+}
+
+potential ( area_se | perimeter_se   ) {
+   data = 
+   ((   0.998183   0.000908265   0.000908265)   % perimeter_se="(2.0100, 3.0000]"   
+   (   0.0123217   0.981193   0.00648508)   % perimeter_se="(3.000, 8.3000]"   
+   (   0.973333   0.0133333   0.0133333));   % perimeter_se="(8.0000, 21.8000]"   
+}
+
+potential ( smoothness_se | area_se   ) {
+   data = 
+   ((   0.998321   0.000839631   0.000839631)   % area_se="(12.0000, 48.9000]"   
+   (   0.060066   0.00660066   0.933333)   % area_se="(48.00000, 482.0000]"   
+   (   0.833333   0.0833333   0.0833333));   % area_se="(482.00000, 534.1000]"   
+}
+
+potential ( compactness_se | smoothness_se   ) {
+   data = 
+   ((   0.000775194   0.000775194   0.99845)   % smoothness_se="(-0.0062, 0.0050]"   
+   (   0.0833333   0.0833333   0.833333)   % smoothness_se="(0.0000, 0.0000]"   
+   (   0.0388418   0.909605   0.0515537));   % smoothness_se="(0.0057, 0.0200]"   
+}
+
+potential ( concavity_se | smoothness_se   fractal_dimension_mean   concave points_mean   compactness_se   concavity_worst   ) {
+   data = 
+   ((((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.000, 1.1000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.000, 1.1000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (   1)))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.000, 1.1000]"   
+   (((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   concavity_worst="(0.0029, 0.3000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   concavity_worst="(0.0029, 0.3000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+   (   1))))));   % smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   concavity_worst="(0.0029, 0.3000]"   
+}
+
+potential ( concave points_se | compactness_se   ) {
+   data = 
+   ((   0.973684   0.0263158)   % compactness_se="(0.0000, 0.1000]"   
+   (   0.0988372   0.901163)   % compactness_se="(0.00000, 0.0600]"   
+   (   0.998906   0.00109409));   % compactness_se="(0.0119, 0.0200]"   
+}
+
+potential ( symmetry_se | concave points_se   ) {
+   data = 
+   ((   0.998068   0.000966184   0.000966184)   % concave points_se="(0.000, 0.0100]"   
+   (   0.0785071   0.866152   0.0553411));   % concave points_se="(0.00000, 0.0300]"   
+}
+
+potential ( fractal_dimension_se | symmetry_se   ) {
+   data = 
+   ((   0.998781   0.000609385   0.000609385)   % symmetry_se="(-0.0017, 0.0100]"   
+   (   0.0276954   0.935707   0.0365974)   % symmetry_se="(0.00000, 0.0200]"   
+   (   0.969697   0.0151515   0.0151515));   % symmetry_se="(0.00000, 0.0500]"   
+}
+
+potential ( radius_worst | radius_mean   fractal_dimension_se   ) {
+   data = 
+   (((   0.998845   0.000577701   0.000577701))   % radius_mean="(8.0000, 27.2000]"   fractal_dimension_se="(-0.0088, 0.0010]"   
+   ((   0.0770042   0.912447   0.0105485))   % radius_mean="(8.0000, 27.2000]"   fractal_dimension_se="(0.0017, 0.0060]"   
+   ((   0.948718   0.025641   0.025641)));   % radius_mean="(8.0000, 27.2000]"   fractal_dimension_se="(0.0064, 0.0090]"   
+}
+
+potential ( texture_worst | radius_worst   ) {
+   data = 
+   ((   0.000815661   0.999184)   % radius_worst="(11.0000, 22.5000]"   
+   (   0.894464   0.105536)   % radius_worst="(22.0000, 33.4000]"   
+   (   0.125   0.875));   % radius_worst="(33.0000, 35.2000]"   
+}
+
+potential ( perimeter_worst | area_worst   texture_worst   ) {
+   data = 
+   (((   0.001221   0.997558   0.001221)   % area_worst="(1408.000000, 3893.2000]"   texture_worst="(15.000, 31.0000]"   
+   (   0.442922   0.16895   0.388128))   % area_worst="(257.000000, 1408.1000]"   texture_worst="(15.000, 31.0000]"   
+   ((   0.333333   0.333333   0.333333)   % area_worst="(1408.000000, 3893.2000]"   texture_worst="(31.000, 44.8000]"   
+   (   0.999226   0.000387147   0.000387147)));   % area_worst="(257.000000, 1408.1000]"   texture_worst="(31.000, 44.8000]"   
+}
+
+potential ( area_worst | texture_worst   ) {
+   data = 
+   ((   0.789017   0.210983)   % texture_worst="(15.000, 31.0000]"   
+   (   0.00116009   0.99884));   % texture_worst="(31.000, 44.8000]"   
+}
+
+potential ( smoothness_worst | area_worst   ) {
+   data = 
+   ((   0.821168   0.178832)   % area_worst="(1408.000000, 3893.2000]"   
+   (   0.00107066   0.998929));   % area_worst="(257.000000, 1408.1000]"   
+}
+
+potential ( compactness_worst | smoothness_worst   ) {
+   data = 
+   ((   0.146018   0.853982)   % smoothness_worst="(0.000, 0.2000]"   
+   (   0.998982   0.00101833));   % smoothness_worst="(0.0750, 0.1000]"   
+}
+
+potential ( concavity_worst | compactness_worst   ) {
+   data = 
+   ((   0.000986193   0.999014)   % compactness_worst="(0.000, 0.3000]"   
+   (   0.768041   0.231959));   % compactness_worst="(0.000, 0.9000]"   
+}
+
+potential ( concave points_worst | concave points_mean   compactness_se   fractal_dimension_worst   smoothness_se   fractal_dimension_mean   ) {
+   data = 
+   ((((((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   1)))))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   
+   (((((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   1)))))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   
+   (((((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   1)   % concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1)   % concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   1))))));   % concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   fractal_dimension_worst="(0.00000, 0.0800]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+potential ( symmetry_worst | concavity_worst   ) {
+   data = 
+   ((   0.833333   0.166667)   % concavity_worst="(0.000, 1.1000]"   
+   (   0.999055   0.00094518));   % concavity_worst="(0.0029, 0.3000]"   
+}
+
+potential ( fractal_dimension_worst | symmetry_worst   concavity_worst   ) {
+   data = 
+   (((   0.292   0.708)   % symmetry_worst="(0.000, 0.2000]"   concavity_worst="(0.000, 1.1000]"   
+   (   0.02   0.98))   % symmetry_worst="(0.000, 0.6000]"   concavity_worst="(0.000, 1.1000]"   
+   ((   0.000473037   0.999527)   % symmetry_worst="(0.000, 0.2000]"   concavity_worst="(0.0029, 0.3000]"   
+   (   0.5   0.5)));   % symmetry_worst="(0.000, 0.6000]"   concavity_worst="(0.0029, 0.3000]"   
+}
+
+potential ( diagnosis | concavity_worst   smoothness_se   fractal_dimension_mean   concave points_mean   compactness_se   ) {
+   data = 
+   ((((((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0000, 0.1000]"   
+   ((((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0000, 0.1000]"   
+   ((((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (   1)))))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0000, 0.1000]"   
+   (((((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.00000, 0.0600]"   
+   ((((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.00000, 0.0600]"   
+   ((((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (   1)))))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.00000, 0.0600]"   
+   (((((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(-0.0059, 0.0800]"   compactness_se="(0.0119, 0.0200]"   
+   ((((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.0000, 0.1000]"   compactness_se="(0.0119, 0.0200]"   
+   ((((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0000]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1)))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0000, 0.0900]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(-0.0062, 0.0050]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0000, 0.0000]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   ((   1)   % concavity_worst="(0.000, 1.1000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+   (   1))))));   % concavity_worst="(0.0029, 0.3000]"   smoothness_se="(0.0057, 0.0200]"   fractal_dimension_mean="(0.0419, 0.0500]"   concave points_mean="(0.00000, 0.0900]"   compactness_se="(0.0119, 0.0200]"   
+}
+
+

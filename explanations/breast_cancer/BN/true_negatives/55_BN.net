@@ -1,0 +1,446 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.17.0";
+  node_size = (50 50);
+}
+
+node radius_mean {
+   states = ("(8.0000, 27.2000]" );
+   label = "radius_mean";
+   ID = "radius_mean";
+}
+
+node texture_mean {
+   states = ("(14.000, 34.0000]" "(34.000, 38.8000]" );
+   label = "texture_mean";
+   ID = "texture_mean";
+}
+
+node perimeter_mean {
+   states = ("(163.00000, 188.4000]" "(62.00000, 163.4000]" );
+   label = "perimeter_mean";
+   ID = "perimeter_mean";
+}
+
+node area_mean {
+   states = ("(1835.000000, 2235.5000]" "(197.8900, 1835.3000]" );
+   label = "area_mean";
+   ID = "area_mean";
+}
+
+node smoothness_mean {
+   states = ("(0.000, 0.1000]" "(0.0000, 0.1000]" );
+   label = "smoothness_mean";
+   ID = "smoothness_mean";
+}
+
+node compactness_mean {
+   states = ("(0.000, 0.3000]" "(0.0000, 0.2000]" );
+   label = "compactness_mean";
+   ID = "compactness_mean";
+}
+
+node concavity_mean {
+   states = ("(0.0000, 0.4000]" );
+   label = "concavity_mean";
+   ID = "concavity_mean";
+}
+
+node concave points_mean {
+   states = ("(-0.0059, 0.0000]" "(0.0000, 0.0900]" "(0.0000, 0.1000]" );
+   label = "concave points_mean";
+   ID = "concave points_mean";
+}
+
+node symmetry_mean {
+   states = ("(0.00, 0.1000]" "(0.000, 0.2000]" );
+   label = "symmetry_mean";
+   ID = "symmetry_mean";
+}
+
+node fractal_dimension_mean {
+   states = ("(0.00000, 0.0500]" "(0.00000, 0.0900]" "(0.0419, 0.0500]" );
+   label = "fractal_dimension_mean";
+   ID = "fractal_dimension_mean";
+}
+
+node radius_se {
+   states = ("(0.00, 0.0000]" "(0.00, 2.8000]" );
+   label = "radius_se";
+   ID = "radius_se";
+}
+
+node texture_se {
+   states = ("(0.000, 0.7000]" "(0.000, 2.2000]" "(2.000, 3.7000]" );
+   label = "texture_se";
+   ID = "texture_se";
+}
+
+node perimeter_se {
+   states = ("(2.000, 8.3000]" "(2.0100, 2.1000]" "(8.0000, 21.8000]" );
+   label = "perimeter_se";
+   ID = "perimeter_se";
+}
+
+node area_se {
+   states = ("(12.0000, 23.2000]" "(23.00000, 482.0000]" "(482.00000, 534.1000]" );
+   label = "area_se";
+   ID = "area_se";
+}
+
+node smoothness_se {
+   states = ("(-0.0062, 0.0080]" "(0.0000, 0.0000]" "(0.0081, 0.0200]" );
+   label = "smoothness_se";
+   ID = "smoothness_se";
+}
+
+node compactness_se {
+   states = ("(0.0000, 0.1000]" "(0.00000, 0.0600]" );
+   label = "compactness_se";
+   ID = "compactness_se";
+}
+
+node concavity_se {
+   states = ("(-0.0059, 0.2000]" );
+   label = "concavity_se";
+   ID = "concavity_se";
+}
+
+node concave points_se {
+   states = ("(-0.0056, 0.0300]" );
+   label = "concave points_se";
+   ID = "concave points_se";
+}
+
+node symmetry_se {
+   states = ("(-0.0017, 0.0100]" "(0.00000, 0.0200]" "(0.00000, 0.0500]" );
+   label = "symmetry_se";
+   ID = "symmetry_se";
+}
+
+node fractal_dimension_se {
+   states = ("(-0.0090, 0.0060]" "(0.0064, 0.0090]" );
+   label = "fractal_dimension_se";
+   ID = "fractal_dimension_se";
+}
+
+node radius_worst {
+   states = ("(11.0000, 13.8000]" "(13.0000, 33.4000]" "(33.0000, 35.2000]" );
+   label = "radius_worst";
+   ID = "radius_worst";
+}
+
+node texture_worst {
+   states = ("(15.0000, 20.9000]" "(20.000, 31.0000]" "(31.000, 40.7000]" );
+   label = "texture_worst";
+   ID = "texture_worst";
+}
+
+node perimeter_worst {
+   states = ("(144.00000, 236.5000]" "(88.00000, 144.5000]" );
+   label = "perimeter_worst";
+   ID = "perimeter_worst";
+}
+
+node area_worst {
+   states = ("(257.00000, 586.7000]" "(586.000000, 3893.2000]" );
+   label = "area_worst";
+   ID = "area_worst";
+}
+
+node smoothness_worst {
+   states = ("(0.000, 0.2000]" "(0.0750, 0.1000]" );
+   label = "smoothness_worst";
+   ID = "smoothness_worst";
+}
+
+node compactness_worst {
+   states = ("(0.00, 0.9000]" );
+   label = "compactness_worst";
+   ID = "compactness_worst";
+}
+
+node concavity_worst {
+   states = ("(0.0000, 1.1000]" "(0.0029, 0.0300]" );
+   label = "concavity_worst";
+   ID = "concavity_worst";
+}
+
+node concave points_worst {
+   states = ("(0.000, 0.0000]" "(0.0009, 0.0300]" );
+   label = "concave points_worst";
+   ID = "concave points_worst";
+}
+
+node symmetry_worst {
+   states = ("(0.000, 0.2000]" "(0.000, 0.6000]" );
+   label = "symmetry_worst";
+   ID = "symmetry_worst";
+}
+
+node fractal_dimension_worst {
+   states = ("(0.0499, 0.1000]" );
+   label = "fractal_dimension_worst";
+   ID = "fractal_dimension_worst";
+}
+
+node diagnosis {
+   states = (No Yes );
+   label = "diagnosis";
+   ID = "diagnosis";
+}
+
+potential ( radius_mean | texture_se   area_worst   ) {
+   data = 
+   (((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(257.00000, 586.7000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(257.00000, 586.7000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   area_worst="(257.00000, 586.7000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)));   % texture_se="(2.000, 3.7000]"   area_worst="(586.000000, 3893.2000]"   
+}
+
+potential ( texture_mean | radius_mean   ) {
+   data = 
+   ((   0.995033   0.00496689));   % radius_mean="(8.0000, 27.2000]"   
+}
+
+potential ( perimeter_mean | concave points_mean   ) {
+   data = 
+   ((   0.0283843   0.971616)   % concave points_mean="(-0.0059, 0.0000]"   
+   (   0.000749625   0.99925)   % concave points_mean="(0.0000, 0.0900]"   
+   (   0.05   0.95));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( area_mean | concave points_mean   ) {
+   data = 
+   ((   0.0414847   0.958515)   % concave points_mean="(-0.0059, 0.0000]"   
+   (   0.000749625   0.99925)   % concave points_mean="(0.0000, 0.0900]"   
+   (   0.05   0.95));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( smoothness_mean | concave points_mean   ) {
+   data = 
+   ((   0.0676856   0.932314)   % concave points_mean="(-0.0059, 0.0000]"   
+   (   0.000749625   0.99925)   % concave points_mean="(0.0000, 0.0900]"   
+   (   0.05   0.95));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( compactness_mean | concave points_mean   ) {
+   data = 
+   ((   0.0545852   0.945415)   % concave points_mean="(-0.0059, 0.0000]"   
+   (   0.000749625   0.99925)   % concave points_mean="(0.0000, 0.0900]"   
+   (   0.05   0.95));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( concavity_mean | texture_se   area_worst   ) {
+   data = 
+   (((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(257.00000, 586.7000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(257.00000, 586.7000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   area_worst="(257.00000, 586.7000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)));   % texture_se="(2.000, 3.7000]"   area_worst="(586.000000, 3893.2000]"   
+}
+
+potential ( concave points_mean | fractal_dimension_mean   symmetry_mean   diagnosis   ) {
+   data = 
+   ((((   0.0133333   0.973333   0.0133333)   % fractal_dimension_mean="(0.00000, 0.0500]"   symmetry_mean="(0.00, 0.1000]"   diagnosis=No   
+   (   0.00343643   0.993127   0.00343643)   % fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_mean="(0.00, 0.1000]"   diagnosis=No   
+   (   0.915079   0.072551   0.0123704))   % fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_mean="(0.00, 0.1000]"   diagnosis=No   
+   ((   0.333333   0.333333   0.333333)   % fractal_dimension_mean="(0.00000, 0.0500]"   symmetry_mean="(0.000, 0.2000]"   diagnosis=No   
+   (   0.333333   0.333333   0.333333)   % fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_mean="(0.000, 0.2000]"   diagnosis=No   
+   (   0.00392157   0.992157   0.00392157)))   % fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_mean="(0.000, 0.2000]"   diagnosis=No   
+   (((   0.000139528   0.999721   0.000139528)   % fractal_dimension_mean="(0.00000, 0.0500]"   symmetry_mean="(0.00, 0.1000]"   diagnosis=Yes   
+   (   0.333333   0.333333   0.333333)   % fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_mean="(0.00, 0.1000]"   diagnosis=Yes   
+   (   0.0133333   0.0133333   0.973333))   % fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_mean="(0.00, 0.1000]"   diagnosis=Yes   
+   ((   0.333333   0.333333   0.333333)   % fractal_dimension_mean="(0.00000, 0.0500]"   symmetry_mean="(0.000, 0.2000]"   diagnosis=Yes   
+   (   0.333333   0.333333   0.333333)   % fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_mean="(0.000, 0.2000]"   diagnosis=Yes   
+   (   0.333333   0.333333   0.333333))));   % fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_mean="(0.000, 0.2000]"   diagnosis=Yes   
+}
+
+potential ( symmetry_mean | diagnosis   ) {
+   data = 
+   ((   0.927861   0.0721393)   % diagnosis=No   
+   (   0.998759   0.00124069));   % diagnosis=Yes   
+}
+
+potential ( fractal_dimension_mean | radius_se   ) {
+   data = 
+   ((   0.0211382   0.0796748   0.899187)   % radius_se="(0.00, 0.0000]"   
+   (   0.998329   0.000835422   0.000835422));   % radius_se="(0.00, 2.8000]"   
+}
+
+potential (radius_se) {
+   data = (  0.339404 0.660596);
+}
+
+potential ( texture_se | radius_se   ) {
+   data = 
+   ((   0.996748   0.00162602   0.00162602)   % radius_se="(0.00, 0.0000]"   
+   (   0.0559733   0.923141   0.0208855));   % radius_se="(0.00, 2.8000]"   
+}
+
+potential ( perimeter_se | texture_se   ) {
+   data = 
+   ((   0.000980392   0.998039   0.000980392)   % texture_se="(0.000, 0.7000]"   
+   (   0.92827   0.0277275   0.0440024)   % texture_se="(0.000, 2.2000]"   
+   (   0.025641   0.948718   0.025641));   % texture_se="(2.000, 3.7000]"   
+}
+
+potential ( area_se | perimeter_se   ) {
+   data = 
+   ((   0.0123217   0.981193   0.00648508)   % perimeter_se="(2.000, 8.3000]"   
+   (   0.998183   0.000908265   0.000908265)   % perimeter_se="(2.0100, 2.1000]"   
+   (   0.973333   0.0133333   0.0133333));   % perimeter_se="(8.0000, 21.8000]"   
+}
+
+potential ( smoothness_se | area_se   ) {
+   data = 
+   ((   0.998321   0.000839631   0.000839631)   % area_se="(12.0000, 23.2000]"   
+   (   0.0660066   0.00660066   0.927393)   % area_se="(23.00000, 482.0000]"   
+   (   0.833333   0.0833333   0.0833333));   % area_se="(482.00000, 534.1000]"   
+}
+
+potential ( compactness_se | smoothness_se   symmetry_se   ) {
+   data = 
+   (((   0.000385505   0.999614)   % smoothness_se="(-0.0062, 0.0080]"   symmetry_se="(-0.0017, 0.0100]"   
+   (   0.05   0.95)   % smoothness_se="(0.0000, 0.0000]"   symmetry_se="(-0.0017, 0.0100]"   
+   (   0.158892   0.841108))   % smoothness_se="(0.0081, 0.0200]"   symmetry_se="(-0.0017, 0.0100]"   
+   ((   0.5   0.5)   % smoothness_se="(-0.0062, 0.0080]"   symmetry_se="(0.00000, 0.0200]"   
+   (   0.5   0.5)   % smoothness_se="(0.0000, 0.0000]"   symmetry_se="(0.00000, 0.0200]"   
+   (   0.0005   0.9995))   % smoothness_se="(0.0081, 0.0200]"   symmetry_se="(0.00000, 0.0200]"   
+   ((   0.5   0.5)   % smoothness_se="(-0.0062, 0.0080]"   symmetry_se="(0.00000, 0.0500]"   
+   (   0.5   0.5)   % smoothness_se="(0.0000, 0.0000]"   symmetry_se="(0.00000, 0.0500]"   
+   (   0.0078125   0.992188)));   % smoothness_se="(0.0081, 0.0200]"   symmetry_se="(0.00000, 0.0500]"   
+}
+
+potential ( concavity_se | texture_se   area_worst   ) {
+   data = 
+   (((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(257.00000, 586.7000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(257.00000, 586.7000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   area_worst="(257.00000, 586.7000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)));   % texture_se="(2.000, 3.7000]"   area_worst="(586.000000, 3893.2000]"   
+}
+
+potential ( concave points_se | texture_se   area_worst   ) {
+   data = 
+   (((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(257.00000, 586.7000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(257.00000, 586.7000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   area_worst="(257.00000, 586.7000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)));   % texture_se="(2.000, 3.7000]"   area_worst="(586.000000, 3893.2000]"   
+}
+
+potential ( symmetry_se | radius_worst   smoothness_se   ) {
+   data = 
+   (((   0.999486   0.000257003   0.000257003)   % radius_worst="(11.0000, 13.8000]"   smoothness_se="(-0.0062, 0.0080]"   
+   (   0.333333   0.333333   0.333333)   % radius_worst="(13.0000, 33.4000]"   smoothness_se="(-0.0062, 0.0080]"   
+   (   0.333333   0.333333   0.333333))   % radius_worst="(33.0000, 35.2000]"   smoothness_se="(-0.0062, 0.0080]"   
+   ((   0.933333   0.0333333   0.0333333)   % radius_worst="(11.0000, 13.8000]"   smoothness_se="(0.0000, 0.0000]"   
+   (   0.333333   0.333333   0.333333)   % radius_worst="(13.0000, 33.4000]"   smoothness_se="(0.0000, 0.0000]"   
+   (   0.333333   0.333333   0.333333))   % radius_worst="(33.0000, 35.2000]"   smoothness_se="(0.0000, 0.0000]"   
+   ((   0.666018   0.210765   0.123217)   % radius_worst="(11.0000, 13.8000]"   smoothness_se="(0.0081, 0.0200]"   
+   (   0.000377501   0.999245   0.000377501)   % radius_worst="(13.0000, 33.4000]"   smoothness_se="(0.0081, 0.0200]"   
+   (   0.0333333   0.933333   0.0333333)));   % radius_worst="(33.0000, 35.2000]"   smoothness_se="(0.0081, 0.0200]"   
+}
+
+potential ( fractal_dimension_se | symmetry_se   radius_worst   ) {
+   data = 
+   (((   0.999697   0.000303398)   % symmetry_se="(-0.0017, 0.0100]"   radius_worst="(11.0000, 13.8000]"   
+   (   0.665138   0.334862)   % symmetry_se="(0.00000, 0.0200]"   radius_worst="(11.0000, 13.8000]"   
+   (   0.992188   0.0078125))   % symmetry_se="(0.00000, 0.0500]"   radius_worst="(11.0000, 13.8000]"   
+   ((   0.5   0.5)   % symmetry_se="(-0.0017, 0.0100]"   radius_worst="(13.0000, 33.4000]"   
+   (   0.999434   0.000566251)   % symmetry_se="(0.00000, 0.0200]"   radius_worst="(13.0000, 33.4000]"   
+   (   0.5   0.5))   % symmetry_se="(0.00000, 0.0500]"   radius_worst="(13.0000, 33.4000]"   
+   ((   0.5   0.5)   % symmetry_se="(-0.0017, 0.0100]"   radius_worst="(33.0000, 35.2000]"   
+   (   0.95   0.05)   % symmetry_se="(0.00000, 0.0200]"   radius_worst="(33.0000, 35.2000]"   
+   (   0.5   0.5)));   % symmetry_se="(0.00000, 0.0500]"   radius_worst="(33.0000, 35.2000]"   
+}
+
+potential ( radius_worst | smoothness_se   ) {
+   data = 
+   ((   0.99846   0.000769823   0.000769823)   % smoothness_se="(-0.0062, 0.0080]"   
+   (   0.833333   0.0833333   0.0833333)   % smoothness_se="(0.0000, 0.0000]"   
+   (   0.365316   0.627576   0.00710732));   % smoothness_se="(0.0081, 0.0200]"   
+}
+
+potential ( texture_worst | radius_worst   ) {
+   data = 
+   ((   0.998902   0.000549149   0.000549149)   % radius_worst="(11.0000, 13.8000]"   
+   (   0.0926554   0.865537   0.0418079)   % radius_worst="(13.0000, 33.4000]"   
+   (   0.833333   0.0833333   0.0833333));   % radius_worst="(33.0000, 35.2000]"   
+}
+
+potential ( perimeter_worst | texture_worst   area_worst   ) {
+   data = 
+   (((   0.000392773   0.999607)   % texture_worst="(15.0000, 20.9000]"   area_worst="(257.00000, 586.7000]"   
+   (   0.412621   0.587379)   % texture_worst="(20.000, 31.0000]"   area_worst="(257.00000, 586.7000]"   
+   (   0.02   0.98))   % texture_worst="(31.000, 40.7000]"   area_worst="(257.00000, 586.7000]"   
+   ((   0.5   0.5)   % texture_worst="(15.0000, 20.9000]"   area_worst="(586.000000, 3893.2000]"   
+   (   0.00122249   0.998778)   % texture_worst="(20.000, 31.0000]"   area_worst="(586.000000, 3893.2000]"   
+   (   0.5   0.5)));   % texture_worst="(31.000, 40.7000]"   area_worst="(586.000000, 3893.2000]"   
+}
+
+potential ( area_worst | texture_worst   ) {
+   data = 
+   ((   0.999215   0.000784929)   % texture_worst="(15.0000, 20.9000]"   
+   (   0.201172   0.798828)   % texture_worst="(20.000, 31.0000]"   
+   (   0.961538   0.0384615));   % texture_worst="(31.000, 40.7000]"   
+}
+
+potential ( smoothness_worst | area_worst   fractal_dimension_worst   ) {
+   data = 
+   (((   0.00107066   0.998929)   % area_worst="(257.00000, 586.7000]"   fractal_dimension_worst="(0.0499, 0.1000]"   
+   (   0.835766   0.164234)));   % area_worst="(586.000000, 3893.2000]"   fractal_dimension_worst="(0.0499, 0.1000]"   
+}
+
+potential ( compactness_worst | texture_se   area_worst   ) {
+   data = 
+   (((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(257.00000, 586.7000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(257.00000, 586.7000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   area_worst="(257.00000, 586.7000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)));   % texture_se="(2.000, 3.7000]"   area_worst="(586.000000, 3893.2000]"   
+}
+
+potential ( concavity_worst | smoothness_worst   ) {
+   data = 
+   ((   0.682609   0.317391)   % smoothness_worst="(0.000, 0.2000]"   
+   (   0.00102249   0.998978));   % smoothness_worst="(0.0750, 0.1000]"   
+}
+
+potential ( concave points_worst | concavity_worst   ) {
+   data = 
+   ((   0.71519   0.28481)   % concavity_worst="(0.0000, 1.1000]"   
+   (   0.000952381   0.999048));   % concavity_worst="(0.0029, 0.0300]"   
+}
+
+potential ( symmetry_worst | concave points_worst   ) {
+   data = 
+   ((   0.324561   0.675439)   % concave points_worst="(0.000, 0.0000]"   
+   (   0.999086   0.000914077));   % concave points_worst="(0.0009, 0.0300]"   
+}
+
+potential ( fractal_dimension_worst | texture_se   area_worst   ) {
+   data = 
+   (((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(257.00000, 586.7000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(257.00000, 586.7000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   area_worst="(257.00000, 586.7000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   area_worst="(586.000000, 3893.2000]"   
+   (   1)));   % texture_se="(2.000, 3.7000]"   area_worst="(586.000000, 3893.2000]"   
+}
+
+potential ( diagnosis | radius_se   ) {
+   data = 
+   ((   0.978049   0.0219512)   % radius_se="(0.00, 0.0000]"   
+   (   0.00125313   0.998747));   % radius_se="(0.00, 2.8000]"   
+}
+
+

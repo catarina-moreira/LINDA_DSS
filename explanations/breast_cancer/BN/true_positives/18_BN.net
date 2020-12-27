@@ -1,0 +1,970 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.18.2";
+  node_size = (50 50);
+}
+
+node radius_mean {
+   states = ("(14.0000, 18.5000]" );
+   label = "radius_mean";
+   ID = "radius_mean";
+}
+
+node texture_mean {
+   states = ("(17.0999, 21.0000]" "(21.000, 21.9000]" );
+   label = "texture_mean";
+   ID = "texture_mean";
+}
+
+node perimeter_mean {
+   states = ("(120.0000, 125.6000]" "(99.6799, 120.0000]" );
+   label = "perimeter_mean";
+   ID = "perimeter_mean";
+}
+
+node area_mean {
+   states = ("(646.00000, 977.5000]" "(977.000000, 1058.4000]" );
+   label = "area_mean";
+   ID = "area_mean";
+}
+
+node smoothness_mean {
+   states = ("(0.0000, 0.1000]" "(0.0000, 0.1100]" );
+   label = "smoothness_mean";
+   ID = "smoothness_mean";
+}
+
+node compactness_mean {
+   states = ("(0.000, 0.1000]" );
+   label = "compactness_mean";
+   ID = "compactness_mean";
+}
+
+node concavity_mean {
+   states = ("(0.000, 0.2000]" );
+   label = "concavity_mean";
+   ID = "concavity_mean";
+}
+
+node concave points_mean {
+   states = ("(0.000, 0.1000]" );
+   label = "concave points_mean";
+   ID = "concave points_mean";
+}
+
+node symmetry_mean {
+   states = ("(0.00000, 0.2000]" "(0.00000, 0.2100]" );
+   label = "symmetry_mean";
+   ID = "symmetry_mean";
+}
+
+node fractal_dimension_mean {
+   states = ("(0.0000, 0.0600]" "(0.00000, 0.0600]" "(0.0489, 0.0000]" );
+   label = "fractal_dimension_mean";
+   ID = "fractal_dimension_mean";
+}
+
+node radius_se {
+   states = ("(0.00, 0.0000]" "(0.00, 0.5000]" );
+   label = "radius_se";
+   ID = "radius_se";
+}
+
+node texture_se {
+   states = ("(0.00, 1.0000]" "(0.000, 0.6000]" "(0.000, 0.7000]" );
+   label = "texture_se";
+   ID = "texture_se";
+}
+
+node perimeter_se {
+   states = ("(0.000, 2.0000]" "(2.000, 2.1000]" "(2.000, 4.2000]" );
+   label = "perimeter_se";
+   ID = "perimeter_se";
+}
+
+node area_se {
+   states = ("(31.0000, 76.6000]" "(7.6000, 31.9000]" "(76.0000, 84.3000]" );
+   label = "area_se";
+   ID = "area_se";
+}
+
+node smoothness_se {
+   states = ("(-0.0072, 0.0050]" "(0.0055, 0.0070]" "(0.0075, 0.0080]" );
+   label = "smoothness_se";
+   ID = "smoothness_se";
+}
+
+node compactness_se {
+   states = ("(-0.0002, 0.0100]" "(0.00000, 0.0100]" "(0.00000, 0.0200]" );
+   label = "compactness_se";
+   ID = "compactness_se";
+}
+
+node concavity_se {
+   states = ("(-0.0042, 0.0200]" "(0.00000, 0.0400]" );
+   label = "concavity_se";
+   ID = "concavity_se";
+}
+
+node concave points_se {
+   states = ("(-0.0013, 0.0100]" "(0.00000, 0.0100]" );
+   label = "concave points_se";
+   ID = "concave points_se";
+}
+
+node symmetry_se {
+   states = ("(-0.0020, 0.0100]" "(0.00000, 0.0100]" );
+   label = "symmetry_se";
+   ID = "symmetry_se";
+}
+
+node fractal_dimension_se {
+   states = ("(-0.0089, 0.0000]" "(0.000000, 0.0020]" "(0.0024, 0.0030]" );
+   label = "fractal_dimension_se";
+   ID = "fractal_dimension_se";
+}
+
+node radius_worst {
+   states = ("(16.8699, 19.1000]" "(19.0000, 21.4000]" "(21.0000, 21.7000]" );
+   label = "radius_worst";
+   ID = "radius_worst";
+}
+
+node texture_worst {
+   states = ("(21.0000, 24.8000]" "(24.0000, 25.0000]" "(25.0000, 26.8000]" );
+   label = "texture_worst";
+   ID = "texture_worst";
+}
+
+node perimeter_worst {
+   states = ("(124.00000, 131.0000]" "(131.00000, 148.1000]" );
+   label = "perimeter_worst";
+   ID = "perimeter_worst";
+}
+
+node area_worst {
+   states = ("(1159.000000, 1493.7000]" "(759.00000, 1159.6000]" );
+   label = "area_worst";
+   ID = "area_worst";
+}
+
+node smoothness_worst {
+   states = ("(0.000, 0.1000]" );
+   label = "smoothness_worst";
+   ID = "smoothness_worst";
+}
+
+node compactness_worst {
+   states = ("(0.00, 0.3000]" "(0.000, 0.4000]" );
+   label = "compactness_worst";
+   ID = "compactness_worst";
+}
+
+node concavity_worst {
+   states = ("(0.000, 0.6000]" "(0.3999, 0.5000]" );
+   label = "concavity_worst";
+   ID = "concavity_worst";
+}
+
+node concave points_worst {
+   states = ("(0.000, 0.2000]" );
+   label = "concave points_worst";
+   ID = "concave points_worst";
+}
+
+node symmetry_worst {
+   states = ("(0.000, 0.3000]" );
+   label = "symmetry_worst";
+   ID = "symmetry_worst";
+}
+
+node fractal_dimension_worst {
+   states = ("(0.000, 0.0000]" "(0.00000, 0.0900]" );
+   label = "fractal_dimension_worst";
+   ID = "fractal_dimension_worst";
+}
+
+node diagnosis {
+   states = (Yes );
+   label = "diagnosis";
+   ID = "diagnosis";
+}
+
+potential ( radius_mean | smoothness_se   perimeter_mean   ) {
+   data = 
+   (((   1)   % perimeter_mean="(120.0000, 125.6000]"   smoothness_se="(-0.0072, 0.0050]"   
+   (   1))   % perimeter_mean="(99.6799, 120.0000]"   smoothness_se="(-0.0072, 0.0050]"   
+   ((   1)   % perimeter_mean="(120.0000, 125.6000]"   smoothness_se="(0.0055, 0.0070]"   
+   (   1))   % perimeter_mean="(99.6799, 120.0000]"   smoothness_se="(0.0055, 0.0070]"   
+   ((   1)   % perimeter_mean="(120.0000, 125.6000]"   smoothness_se="(0.0075, 0.0080]"   
+   (   1)));   % perimeter_mean="(99.6799, 120.0000]"   smoothness_se="(0.0075, 0.0080]"   
+}
+
+potential ( texture_mean | compactness_mean   ) {
+   data = 
+   ((   0.995033   0.00496689));   % compactness_mean="(0.000, 0.1000]"   
+}
+
+potential ( perimeter_mean | radius_se   ) {
+   data = 
+   ((   0.0219512   0.978049)   % radius_se="(0.00, 0.0000]"   
+   (   0.00125313   0.998747));   % radius_se="(0.00, 0.5000]"   
+}
+
+potential ( area_mean | radius_se   ) {
+   data = 
+   ((   0.968293   0.0317073)   % radius_se="(0.00, 0.0000]"   
+   (   0.998747   0.00125313));   % radius_se="(0.00, 0.5000]"   
+}
+
+potential ( smoothness_mean | radius_se   ) {
+   data = 
+   ((   0.94878   0.0512195)   % radius_se="(0.00, 0.0000]"   
+   (   0.998747   0.00125313));   % radius_se="(0.00, 0.5000]"   
+}
+
+potential ( compactness_mean | smoothness_mean   area_worst   area_se   fractal_dimension_worst   texture_se   ) {
+   data = 
+   ((((((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1))))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   
+   ((((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)))))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (((((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1))))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   
+   ((((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+   (   1))))));   % texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   
+}
+
+potential ( concavity_mean | perimeter_worst   smoothness_mean   area_worst   concavity_worst   area_se   texture_se   ) {
+   data = 
+   (((((((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)))))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   
+   (((((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   (   1))))))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   
+   ((((((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)))))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   
+   (((((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)))   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (((   1)   % texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1))   % texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   ((   1)   % texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)   % texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+   (   1)))))));   % texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   
+}
+
+potential ( concave points_mean | area_se   fractal_dimension_worst   texture_se   smoothness_mean   area_worst   ) {
+   data = 
+   ((((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(31.0000, 76.6000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   (   1)))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(31.0000, 76.6000]"   
+   (((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(7.6000, 31.9000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   (   1)))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(7.6000, 31.9000]"   
+   (((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.000, 0.0000]"   area_se="(76.0000, 84.3000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.00, 1.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.6000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+   (   1))))));   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   texture_se="(0.000, 0.7000]"   fractal_dimension_worst="(0.00000, 0.0900]"   area_se="(76.0000, 84.3000]"   
+}
+
+potential ( symmetry_mean | concavity_mean   ) {
+   data = 
+   ((   0.995033   0.00496689));   % concavity_mean="(0.000, 0.2000]"   
+}
+
+potential ( fractal_dimension_mean | radius_se   ) {
+   data = 
+   ((   0.899187   0.0699187   0.0308943)   % radius_se="(0.00, 0.0000]"   
+   (   0.000835422   0.000835422   0.998329));   % radius_se="(0.00, 0.5000]"   
+}
+
+potential (radius_se) {
+   data = (  0.339404 0.660596);
+}
+
+potential ( texture_se | radius_se   ) {
+   data = 
+   ((   0.00162602   0.996748   0.00162602)   % radius_se="(0.00, 0.0000]"   
+   (   0.0208855   0.0659983   0.913116));   % radius_se="(0.00, 0.5000]"   
+}
+
+potential ( perimeter_se | texture_se   ) {
+   data = 
+   ((   0.025641   0.948718   0.025641)   % texture_se="(0.00, 1.0000]"   
+   (   0.000963391   0.998073   0.000963391)   % texture_se="(0.000, 0.6000]"   
+   (   0.943937   0.0115783   0.0444851));   % texture_se="(0.000, 0.7000]"   
+}
+
+potential ( area_se | perimeter_se   ) {
+   data = 
+   ((   0.969697   0.0238556   0.00644745)   % perimeter_se="(0.000, 2.0000]"   
+   (   0.000915751   0.998168   0.000915751)   % perimeter_se="(2.000, 2.1000]"   
+   (   0.0133333   0.973333   0.0133333));   % perimeter_se="(2.000, 4.2000]"   
+}
+
+potential ( smoothness_se | area_se   ) {
+   data = 
+   ((   0.0723772   0.920983   0.00664011)   % area_se="(31.0000, 76.6000]"   
+   (   0.998333   0.000833333   0.000833333)   % area_se="(7.6000, 31.9000]"   
+   (   0.833333   0.0833333   0.0833333));   % area_se="(76.0000, 84.3000]"   
+}
+
+potential ( compactness_se | smoothness_se   ) {
+   data = 
+   ((   0.000759301   0.998481   0.000759301)   % smoothness_se="(-0.0072, 0.0050]"   
+   (   0.933765   0.0331174   0.0331174)   % smoothness_se="(0.0055, 0.0070]"   
+   (   0.0833333   0.833333   0.0833333));   % smoothness_se="(0.0075, 0.0080]"   
+}
+
+potential ( concavity_se | symmetry_worst   compactness_se   ) {
+   data = 
+   (((   0.0704388   0.929561)   % compactness_se="(-0.0002, 0.0100]"   symmetry_worst="(0.000, 0.3000]"   
+   (   0.998906   0.00109409)   % compactness_se="(0.00000, 0.0100]"   symmetry_worst="(0.000, 0.3000]"   
+   (   0.96875   0.03125)));   % compactness_se="(0.00000, 0.0200]"   symmetry_worst="(0.000, 0.3000]"   
+}
+
+potential ( concave points_se | concavity_se   ) {
+   data = 
+   ((   0.998507   0.00149254)   % concavity_se="(-0.0042, 0.0200]"   
+   (   0.0687732   0.931227));   % concavity_se="(0.00000, 0.0400]"   
+}
+
+potential ( symmetry_se | fractal_dimension_se   concave points_se   ) {
+   data = 
+   (((   0.000473037   0.999527)   % concave points_se="(-0.0013, 0.0100]"   fractal_dimension_se="(-0.0089, 0.0000]"   
+   (   0.400826   0.599174))   % concave points_se="(0.00000, 0.0100]"   fractal_dimension_se="(-0.0089, 0.0000]"   
+   ((   0.5   0.5)   % concave points_se="(-0.0013, 0.0100]"   fractal_dimension_se="(0.000000, 0.0020]"   
+   (   0.999176   0.000823723))   % concave points_se="(0.00000, 0.0100]"   fractal_dimension_se="(0.000000, 0.0020]"   
+   ((   0.5   0.5)   % concave points_se="(-0.0013, 0.0100]"   fractal_dimension_se="(0.0024, 0.0030]"   
+   (   0.98   0.02)));   % concave points_se="(0.00000, 0.0100]"   fractal_dimension_se="(0.0024, 0.0030]"   
+}
+
+potential ( fractal_dimension_se | concave points_se   ) {
+   data = 
+   ((   0.998111   0.000944287   0.000944287)   % concave points_se="(-0.0013, 0.0100]"   
+   (   0.160691   0.806109   0.0332005));   % concave points_se="(0.00000, 0.0100]"   
+}
+
+potential ( radius_worst | fractal_dimension_se   ) {
+   data = 
+   ((   0.998868   0.000565931   0.000565931)   % fractal_dimension_se="(-0.0089, 0.0000]"   
+   (   0.0405702   0.948465   0.0109649)   % fractal_dimension_se="(0.000000, 0.0020]"   
+   (   0.948718   0.025641   0.025641));   % fractal_dimension_se="(0.0024, 0.0030]"   
+}
+
+potential ( texture_worst | radius_worst   radius_mean   ) {
+   data = 
+   (((   0.998912   0.000543774   0.000543774))   % radius_mean="(14.0000, 18.5000]"   radius_worst="(16.8699, 19.1000]"   
+   ((   0.10496   0.852364   0.0426759))   % radius_mean="(14.0000, 18.5000]"   radius_worst="(19.0000, 21.4000]"   
+   ((   0.833333   0.0833333   0.0833333)));   % radius_mean="(14.0000, 18.5000]"   radius_worst="(21.0000, 21.7000]"   
+}
+
+potential ( perimeter_worst | area_worst   texture_worst   ) {
+   data = 
+   (((   0.5   0.5)   % texture_worst="(21.0000, 24.8000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   0.998721   0.00127877)   % texture_worst="(24.0000, 25.0000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   0.5   0.5))   % texture_worst="(25.0000, 26.8000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   0.999613   0.000387297)   % texture_worst="(21.0000, 24.8000]"   area_worst="(759.00000, 1159.6000]"   
+   (   0.645631   0.354369)   % texture_worst="(24.0000, 25.0000]"   area_worst="(759.00000, 1159.6000]"   
+   (   0.98   0.02)));   % texture_worst="(25.0000, 26.8000]"   area_worst="(759.00000, 1159.6000]"   
+}
+
+potential ( area_worst | texture_worst   ) {
+   data = 
+   ((   0.000773994   0.999226)   % texture_worst="(21.0000, 24.8000]"   
+   (   0.791498   0.208502)   % texture_worst="(24.0000, 25.0000]"   
+   (   0.0384615   0.961538));   % texture_worst="(25.0000, 26.8000]"   
+}
+
+potential ( smoothness_worst | area_worst   concavity_worst   area_se   texture_se   perimeter_worst   smoothness_mean   ) {
+   data = 
+   (((((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   (   1))))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(1159.000000, 1493.7000]"   
+   ((((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   area_worst="(759.00000, 1159.6000]"   
+   (((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1))   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   ((   1)   % smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+   (   1)))))));   % smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   area_worst="(759.00000, 1159.6000]"   
+}
+
+potential ( compactness_worst | area_worst   ) {
+   data = 
+   ((   0.293893   0.706107)   % area_worst="(1159.000000, 1493.7000]"   
+   (   0.998943   0.00105708));   % area_worst="(759.00000, 1159.6000]"   
+}
+
+potential ( concavity_worst | compactness_worst   ) {
+   data = 
+   ((   0.000978474   0.999022)   % compactness_worst="(0.00, 0.3000]"   
+   (   0.715054   0.284946));   % compactness_worst="(0.000, 0.4000]"   
+}
+
+potential ( concave points_worst | perimeter_mean   smoothness_se   ) {
+   data = 
+   (((   1)   % smoothness_se="(-0.0072, 0.0050]"   perimeter_mean="(120.0000, 125.6000]"   
+   (   1)   % smoothness_se="(0.0055, 0.0070]"   perimeter_mean="(120.0000, 125.6000]"   
+   (   1))   % smoothness_se="(0.0075, 0.0080]"   perimeter_mean="(120.0000, 125.6000]"   
+   ((   1)   % smoothness_se="(-0.0072, 0.0050]"   perimeter_mean="(99.6799, 120.0000]"   
+   (   1)   % smoothness_se="(0.0055, 0.0070]"   perimeter_mean="(99.6799, 120.0000]"   
+   (   1)));   % smoothness_se="(0.0075, 0.0080]"   perimeter_mean="(99.6799, 120.0000]"   
+}
+
+potential ( symmetry_worst | perimeter_mean   smoothness_se   ) {
+   data = 
+   (((   1)   % smoothness_se="(-0.0072, 0.0050]"   perimeter_mean="(120.0000, 125.6000]"   
+   (   1)   % smoothness_se="(0.0055, 0.0070]"   perimeter_mean="(120.0000, 125.6000]"   
+   (   1))   % smoothness_se="(0.0075, 0.0080]"   perimeter_mean="(120.0000, 125.6000]"   
+   ((   1)   % smoothness_se="(-0.0072, 0.0050]"   perimeter_mean="(99.6799, 120.0000]"   
+   (   1)   % smoothness_se="(0.0055, 0.0070]"   perimeter_mean="(99.6799, 120.0000]"   
+   (   1)));   % smoothness_se="(0.0075, 0.0080]"   perimeter_mean="(99.6799, 120.0000]"   
+}
+
+potential ( fractal_dimension_worst | concavity_worst   ) {
+   data = 
+   ((   0.156716   0.843284)   % concavity_worst="(0.000, 0.6000]"   
+   (   0.000931099   0.999069));   % concavity_worst="(0.3999, 0.5000]"   
+}
+
+potential ( diagnosis | concavity_worst   area_se   texture_se   perimeter_worst   smoothness_mean   area_worst   ) {
+   data = 
+   (((((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.000, 0.6000]"   
+   (((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.000, 0.6000]"   
+   (((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   (   1))))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.000, 0.6000]"   
+   ((((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(31.0000, 76.6000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(7.6000, 31.9000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.00, 1.0000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.6000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(124.00000, 131.0000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1))   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1000]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   ((   1)   % area_worst="(1159.000000, 1493.7000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+   (   1)))))));   % area_worst="(759.00000, 1159.6000]"   smoothness_mean="(0.0000, 0.1100]"   perimeter_worst="(131.00000, 148.1000]"   texture_se="(0.000, 0.7000]"   area_se="(76.0000, 84.3000]"   concavity_worst="(0.3999, 0.5000]"   
+}
+
+

@@ -1,0 +1,879 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.17.0";
+  node_size = (50 50);
+}
+
+node radius_mean {
+   states = ("(8.0000, 27.2000]" );
+   label = "radius_mean";
+   ID = "radius_mean";
+}
+
+node texture_mean {
+   states = ("(14.000, 34.0000]" "(34.000, 38.8000]" );
+   label = "texture_mean";
+   ID = "texture_mean";
+}
+
+node perimeter_mean {
+   states = ("(163.00000, 188.4000]" "(62.00000, 163.4000]" );
+   label = "perimeter_mean";
+   ID = "perimeter_mean";
+}
+
+node area_mean {
+   states = ("(1835.000000, 2235.5000]" "(197.8900, 1835.3000]" );
+   label = "area_mean";
+   ID = "area_mean";
+}
+
+node smoothness_mean {
+   states = ("(0.000, 0.1000]" "(0.0000, 0.1000]" );
+   label = "smoothness_mean";
+   ID = "smoothness_mean";
+}
+
+node compactness_mean {
+   states = ("(0.000, 0.3000]" "(0.0000, 0.2000]" );
+   label = "compactness_mean";
+   ID = "compactness_mean";
+}
+
+node concavity_mean {
+   states = ("(0.0000, 0.4000]" );
+   label = "concavity_mean";
+   ID = "concavity_mean";
+}
+
+node concave points_mean {
+   states = ("(-0.0059, 0.0000]" "(0.0000, 0.0900]" "(0.0000, 0.1000]" );
+   label = "concave points_mean";
+   ID = "concave points_mean";
+}
+
+node symmetry_mean {
+   states = ("(0.00, 0.1000]" "(0.000, 0.2000]" );
+   label = "symmetry_mean";
+   ID = "symmetry_mean";
+}
+
+node fractal_dimension_mean {
+   states = ("(0.00000, 0.0500]" "(0.00000, 0.0900]" "(0.0419, 0.0500]" );
+   label = "fractal_dimension_mean";
+   ID = "fractal_dimension_mean";
+}
+
+node radius_se {
+   states = ("(0.000, 0.4000]" "(0.000, 2.8000]" );
+   label = "radius_se";
+   ID = "radius_se";
+}
+
+node texture_se {
+   states = ("(0.000, 0.9000]" "(0.000, 2.2000]" "(2.000, 3.7000]" );
+   label = "texture_se";
+   ID = "texture_se";
+}
+
+node perimeter_se {
+   states = ("(2.0100, 3.0000]" "(3.00, 8.3000]" "(8.0000, 21.8000]" );
+   label = "perimeter_se";
+   ID = "perimeter_se";
+}
+
+node area_se {
+   states = ("(12.0000, 48.5000]" "(48.00000, 482.0000]" "(482.00000, 534.1000]" );
+   label = "area_se";
+   ID = "area_se";
+}
+
+node smoothness_se {
+   states = ("(-0.0062, 0.0060]" "(0.0000, 0.0000]" "(0.0067, 0.0200]" );
+   label = "smoothness_se";
+   ID = "smoothness_se";
+}
+
+node compactness_se {
+   states = ("(0.0000, 0.1000]" "(0.00000, 0.0600]" "(0.0119, 0.0300]" );
+   label = "compactness_se";
+   ID = "compactness_se";
+}
+
+node concavity_se {
+   states = ("(0.0000, 0.2000]" "(0.00000, 0.0300]" );
+   label = "concavity_se";
+   ID = "concavity_se";
+}
+
+node concave points_se {
+   states = ("(0.000, 0.0100]" "(0.00000, 0.0300]" );
+   label = "concave points_se";
+   ID = "concave points_se";
+}
+
+node symmetry_se {
+   states = ("(-0.0017, 0.0100]" "(0.00000, 0.0200]" "(0.00000, 0.0500]" );
+   label = "symmetry_se";
+   ID = "symmetry_se";
+}
+
+node fractal_dimension_se {
+   states = ("(-0.0088, 0.0020]" "(0.0021, 0.0060]" "(0.0064, 0.0090]" );
+   label = "fractal_dimension_se";
+   ID = "fractal_dimension_se";
+}
+
+node radius_worst {
+   states = ("(11.0000, 18.9000]" "(18.0000, 33.4000]" "(33.0000, 35.2000]" );
+   label = "radius_worst";
+   ID = "radius_worst";
+}
+
+node texture_worst {
+   states = ("(15.000, 31.0000]" "(31.000, 34.1000]" "(34.0000, 40.7000]" );
+   label = "texture_worst";
+   ID = "texture_worst";
+}
+
+node perimeter_worst {
+   states = ("(121.0899, 126.0000]" "(126.0000, 144.5000]" "(144.00000, 236.5000]" );
+   label = "perimeter_worst";
+   ID = "perimeter_worst";
+}
+
+node area_worst {
+   states = ("(1123.000000, 3893.2000]" "(257.000000, 1123.9000]" );
+   label = "area_worst";
+   ID = "area_worst";
+}
+
+node smoothness_worst {
+   states = ("(0.000, 0.2000]" "(0.0750, 0.1000]" );
+   label = "smoothness_worst";
+   ID = "smoothness_worst";
+}
+
+node compactness_worst {
+   states = ("(0.000, 0.3000]" "(0.000, 0.9000]" );
+   label = "compactness_worst";
+   ID = "compactness_worst";
+}
+
+node concavity_worst {
+   states = ("(0.000, 1.1000]" "(0.0029, 0.3000]" );
+   label = "concavity_worst";
+   ID = "concavity_worst";
+}
+
+node concave points_worst {
+   states = ("(0.00, 0.0000]" "(0.0009, 0.1000]" );
+   label = "concave points_worst";
+   ID = "concave points_worst";
+}
+
+node symmetry_worst {
+   states = ("(0.000, 0.2000]" "(0.000, 0.6000]" );
+   label = "symmetry_worst";
+   ID = "symmetry_worst";
+}
+
+node fractal_dimension_worst {
+   states = ("(0.0000, 0.1000]" "(0.00000, 0.0700]" );
+   label = "fractal_dimension_worst";
+   ID = "fractal_dimension_worst";
+}
+
+node diagnosis {
+   states = (Yes );
+   label = "diagnosis";
+   ID = "diagnosis";
+}
+
+potential ( radius_mean | compactness_se   texture_se   area_worst   smoothness_se   texture_worst   ) {
+   data = 
+   ((((((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1)))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   (   1))))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   
+   ((((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1)))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   (   1))))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   
+   ((((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1)))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (   1)))))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   
+   (((((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1)))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   (   1))))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   
+   ((((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1)))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   (   1))))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   
+   ((((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1)))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (   1)))))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   
+   (((((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   
+   ((((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   
+   ((((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)))   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))   % compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   ((   1)   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1)   % compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+   (   1))))));   % compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   
+}
+
+potential ( texture_mean | radius_mean   ) {
+   data = 
+   ((   0.995033   0.00496689));   % radius_mean="(8.0000, 27.2000]"   
+}
+
+potential ( perimeter_mean | concave points_mean   ) {
+   data = 
+   ((   0.0283843   0.971616)   % concave points_mean="(-0.0059, 0.0000]"   
+   (   0.000749625   0.99925)   % concave points_mean="(0.0000, 0.0900]"   
+   (   0.05   0.95));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( area_mean | concave points_mean   ) {
+   data = 
+   ((   0.0414847   0.958515)   % concave points_mean="(-0.0059, 0.0000]"   
+   (   0.000749625   0.99925)   % concave points_mean="(0.0000, 0.0900]"   
+   (   0.05   0.95));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( smoothness_mean | concave points_mean   ) {
+   data = 
+   ((   0.0676856   0.932314)   % concave points_mean="(-0.0059, 0.0000]"   
+   (   0.000749625   0.99925)   % concave points_mean="(0.0000, 0.0900]"   
+   (   0.05   0.95));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( compactness_mean | concave points_mean   ) {
+   data = 
+   ((   0.0545852   0.945415)   % concave points_mean="(-0.0059, 0.0000]"   
+   (   0.000749625   0.99925)   % concave points_mean="(0.0000, 0.0900]"   
+   (   0.05   0.95));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( concavity_mean | smoothness_se   texture_worst   smoothness_worst   compactness_se   texture_se   ) {
+   data = 
+   ((((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (   1)))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   
+   (((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (   1)))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   
+   (((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.000, 0.2000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+   (   1))))));   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   smoothness_worst="(0.0750, 0.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   
+}
+
+potential ( concave points_mean | fractal_dimension_mean   symmetry_mean   ) {
+   data = 
+   (((   0.000276167   0.999448   0.000276167)   % fractal_dimension_mean="(0.00000, 0.0500]"   symmetry_mean="(0.00, 0.1000]"   
+   (   0.00680272   0.986395   0.00680272)   % fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_mean="(0.00, 0.1000]"   
+   (   0.89302   0.0711024   0.0358774))   % fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_mean="(0.00, 0.1000]"   
+   ((   0.333333   0.333333   0.333333)   % fractal_dimension_mean="(0.00000, 0.0500]"   symmetry_mean="(0.000, 0.2000]"   
+   (   0.333333   0.333333   0.333333)   % fractal_dimension_mean="(0.00000, 0.0900]"   symmetry_mean="(0.000, 0.2000]"   
+   (   0.00775194   0.984496   0.00775194)));   % fractal_dimension_mean="(0.0419, 0.0500]"   symmetry_mean="(0.000, 0.2000]"   
+}
+
+potential ( symmetry_mean | fractal_dimension_mean   ) {
+   data = 
+   ((   0.999172   0.000827815)   % fractal_dimension_mean="(0.00000, 0.0500]"   
+   (   0.98   0.02)   % fractal_dimension_mean="(0.00000, 0.0900]"   
+   (   0.922383   0.0776173));   % fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+potential ( fractal_dimension_mean | radius_se   ) {
+   data = 
+   ((   0.0211382   0.0796748   0.899187)   % radius_se="(0.000, 0.4000]"   
+   (   0.998329   0.000835422   0.000835422));   % radius_se="(0.000, 2.8000]"   
+}
+
+potential ( radius_se | texture_se   ) {
+   data = 
+   ((   0.893586   0.106414)   % texture_se="(0.000, 0.9000]"   
+   (   0.000909091   0.999091)   % texture_se="(0.000, 2.2000]"   
+   (   0.0384615   0.961538));   % texture_se="(2.000, 3.7000]"   
+}
+
+potential ( texture_se | perimeter_se   ) {
+   data = 
+   ((   0.932788   0.0336058   0.0336058)   % perimeter_se="(2.0100, 3.0000]"   
+   (   0.000648508   0.998703   0.000648508)   % perimeter_se="(3.00, 8.3000]"   
+   (   0.0133333   0.973333   0.0133333));   % perimeter_se="(8.0000, 21.8000]"   
+}
+
+potential ( perimeter_se | area_se   ) {
+   data = 
+   ((   0.922754   0.015953   0.061293)   % area_se="(12.0000, 48.5000]"   
+   (   0.000660066   0.99868   0.000660066)   % area_se="(48.00000, 482.0000]"   
+   (   0.0833333   0.833333   0.0833333));   % area_se="(482.00000, 534.1000]"   
+}
+
+potential ( area_se | smoothness_se   ) {
+   data = 
+   ((   0.915319   0.0769823   0.00769823)   % smoothness_se="(-0.0062, 0.0060]"   
+   (   0.0833333   0.833333   0.0833333)   % smoothness_se="(0.0000, 0.0000]"   
+   (   0.000710732   0.998579   0.000710732));   % smoothness_se="(0.0067, 0.0200]"   
+}
+
+potential ( smoothness_se | compactness_se   ) {
+   data = 
+   ((   0.0175439   0.0175439   0.964912)   % compactness_se="(0.0000, 0.1000]"   
+   (   0.000775194   0.000775194   0.99845)   % compactness_se="(0.00000, 0.0600]"   
+   (   0.946025   0.00729395   0.0466813));   % compactness_se="(0.0119, 0.0300]"   
+}
+
+potential ( compactness_se | concavity_se   ) {
+   data = 
+   ((   0.00119474   0.997611   0.00119474)   % concavity_se="(0.0000, 0.2000]"   
+   (   0.0379487   0.025641   0.93641));   % concavity_se="(0.00000, 0.0300]"   
+}
+
+potential ( concavity_se | concave points_se   ) {
+   data = 
+   ((   0.0648415   0.935159)   % concave points_se="(0.000, 0.0100]"   
+   (   0.998054   0.00194553));   % concave points_se="(0.00000, 0.0300]"   
+}
+
+potential ( concave points_se | symmetry_se   ) {
+   data = 
+   ((   0.949726   0.0502742)   % symmetry_se="(-0.0017, 0.0100]"   
+   (   0.00148368   0.998516)   % symmetry_se="(0.00000, 0.0200]"   
+   (   0.0227273   0.977273));   % symmetry_se="(0.00000, 0.0500]"   
+}
+
+potential ( symmetry_se | fractal_dimension_se   ) {
+   data = 
+   ((   0.946852   0.0161756   0.0369728)   % fractal_dimension_se="(-0.0088, 0.0020]"   
+   (   0.00105485   0.99789   0.00105485)   % fractal_dimension_se="(0.0021, 0.0060]"   
+   (   0.025641   0.948718   0.025641));   % fractal_dimension_se="(0.0064, 0.0090]"   
+}
+
+potential ( fractal_dimension_se | radius_worst   ) {
+   data = 
+   ((   0.949478   0.0302032   0.0203185)   % radius_worst="(11.0000, 18.9000]"   
+   (   0.00112994   0.99774   0.00112994)   % radius_worst="(18.0000, 33.4000]"   
+   (   0.0833333   0.833333   0.0833333));   % radius_worst="(33.0000, 35.2000]"   
+}
+
+potential (radius_worst) {
+   data = (  0.669978 0.325607 0.00441501);
+}
+
+potential ( texture_worst | radius_worst   ) {
+   data = 
+   ((   0.000549149   0.998902   0.000549149)   % radius_worst="(11.0000, 18.9000]"   
+   (   0.875706   0.0824859   0.0418079)   % radius_worst="(18.0000, 33.4000]"   
+   (   0.0833333   0.833333   0.0833333));   % radius_worst="(33.0000, 35.2000]"   
+}
+
+potential ( perimeter_worst | texture_worst   ) {
+   data = 
+   ((   0.0823681   0.835264   0.0823681)   % texture_worst="(15.000, 31.0000]"   
+   (   0.998948   0.000525762   0.000525762)   % texture_worst="(31.000, 34.1000]"   
+   (   0.948718   0.025641   0.025641));   % texture_worst="(34.0000, 40.7000]"   
+}
+
+potential ( area_worst | perimeter_worst   ) {
+   data = 
+   ((   0.000749625   0.99925)   % perimeter_worst="(121.0899, 126.0000]"   
+   (   0.942396   0.0576037)   % perimeter_worst="(126.0000, 144.5000]"   
+   (   0.0227273   0.977273));   % perimeter_worst="(144.00000, 236.5000]"   
+}
+
+potential ( smoothness_worst | area_worst   ) {
+   data = 
+   ((   0.835766   0.164234)   % area_worst="(1123.000000, 3893.2000]"   
+   (   0.00107066   0.998929));   % area_worst="(257.000000, 1123.9000]"   
+}
+
+potential ( compactness_worst | smoothness_worst   ) {
+   data = 
+   ((   0.143478   0.856522)   % smoothness_worst="(0.000, 0.2000]"   
+   (   0.998978   0.00102249));   % smoothness_worst="(0.0750, 0.1000]"   
+}
+
+potential ( concavity_worst | compactness_worst   ) {
+   data = 
+   ((   0.000990099   0.99901)   % compactness_worst="(0.000, 0.3000]"   
+   (   0.732323   0.267677));   % compactness_worst="(0.000, 0.9000]"   
+}
+
+potential ( concave points_worst | concavity_worst   symmetry_worst   ) {
+   data = 
+   (((   0.123188   0.876812)   % concavity_worst="(0.000, 1.1000]"   symmetry_worst="(0.000, 0.2000]"   
+   (   0.000471254   0.999529))   % concavity_worst="(0.0029, 0.3000]"   symmetry_worst="(0.000, 0.2000]"   
+   ((   0.00649351   0.993506)   % concavity_worst="(0.000, 1.1000]"   symmetry_worst="(0.000, 0.6000]"   
+   (   0.5   0.5)));   % concavity_worst="(0.0029, 0.3000]"   symmetry_worst="(0.000, 0.6000]"   
+}
+
+potential ( symmetry_worst | concavity_worst   ) {
+   data = 
+   ((   0.472603   0.527397)   % concavity_worst="(0.000, 1.1000]"   
+   (   0.999058   0.00094162));   % concavity_worst="(0.0029, 0.3000]"   
+}
+
+potential ( fractal_dimension_worst | symmetry_worst   ) {
+   data = 
+   ((   0.000884956   0.999115)   % symmetry_worst="(0.000, 0.2000]"   
+   (   0.474359   0.525641));   % symmetry_worst="(0.000, 0.6000]"   
+}
+
+potential ( diagnosis | smoothness_se   texture_worst   compactness_se   texture_se   area_worst   ) {
+   data = 
+   ((((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (   1)))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(1123.000000, 3893.2000]"   
+   (((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 0.9000]"   area_worst="(257.000000, 1123.9000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(0.000, 2.2000]"   area_worst="(257.000000, 1123.9000]"   
+   ((((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.00000, 0.0600]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(15.000, 31.0000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(31.000, 34.1000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   ((   1)   % smoothness_se="(-0.0062, 0.0060]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1)   % smoothness_se="(0.0000, 0.0000]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+   (   1))))));   % smoothness_se="(0.0067, 0.0200]"   texture_worst="(34.0000, 40.7000]"   compactness_se="(0.0119, 0.0300]"   texture_se="(2.000, 3.7000]"   area_worst="(257.000000, 1123.9000]"   
+}
+
+

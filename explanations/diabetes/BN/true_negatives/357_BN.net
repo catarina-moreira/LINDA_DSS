@@ -1,0 +1,120 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.17.0";
+  node_size = (50 50);
+}
+
+node Pregnancies {
+   states = ("(0.1200, 9.9000]" "(9.0000, 11.1000]" );
+   label = "Pregnancies";
+   ID = "Pregnancies";
+}
+
+node Glucose {
+   states = ("(3.000, 71.0000]" "(71.0000, 196.9000]" );
+   label = "Glucose";
+   ID = "Glucose";
+}
+
+node BloodPressure {
+   states = ("(1.00, 58.0000]" "(58.000, 73.6000]" "(73.00000, 121.4000]" );
+   label = "BloodPressure";
+   ID = "BloodPressure";
+}
+
+node SkinThickness {
+   states = ("(0.1200, 26.4000]" "(26.000, 36.0000]" "(36.000, 94.7000]" );
+   label = "SkinThickness";
+   ID = "SkinThickness";
+}
+
+node Insulin {
+   states = ("(156.0000, 552.0000]" "(2.000, 93.9000]" "(93.00000, 156.4000]" );
+   label = "Insulin";
+   ID = "Insulin";
+}
+
+node BMI {
+   states = ("(1.000, 33.0000]" "(33.000, 47.1000]" "(47.000, 65.0000]" );
+   label = "BMI";
+   ID = "BMI";
+}
+
+node DiabetesPedigreeFunction {
+   states = ("(0.000, 1.5000]" "(0.0000, 0.2000]" );
+   label = "DiabetesPedigreeFunction";
+   ID = "DiabetesPedigreeFunction";
+}
+
+node Age {
+   states = ("(22.3899, 23.3000]" "(23.0000, 58.8000]" );
+   label = "Age";
+   ID = "Age";
+}
+
+node Diabetes? {
+   states = (No Yes );
+   label = "Diabetes?";
+   ID = "Diabetes?";
+}
+
+potential ( Pregnancies | Glucose   ) {
+   data = 
+   ((   0.998952   0.00104822)   % Glucose="(3.000, 71.0000]"   
+   (   0.907407   0.0925926));   % Glucose="(71.0000, 196.9000]"   
+}
+
+potential (Glucose) {
+   data = (  0.779412 0.220588);
+}
+
+potential ( BloodPressure | Glucose   ) {
+   data = 
+   ((   0.109713   0.818309   0.0719776)   % Glucose="(3.000, 71.0000]"   
+   (   0.995062   0.00246914   0.00246914));   % Glucose="(71.0000, 196.9000]"   
+}
+
+potential ( SkinThickness | BloodPressure   ) {
+   data = 
+   ((   0.00119048   0.997619   0.00119048)   % BloodPressure="(1.00, 58.0000]"   
+   (   0.824801   0.0466439   0.128555)   % BloodPressure="(58.000, 73.6000]"   
+   (   0.00641026   0.987179   0.00641026));   % BloodPressure="(73.00000, 121.4000]"   
+}
+
+potential ( Insulin | SkinThickness   ) {
+   data = 
+   ((   0.174242   0.0936639   0.732094)   % SkinThickness="(0.1200, 26.4000]"   
+   (   0.000931099   0.998138   0.000931099)   % SkinThickness="(26.000, 36.0000]"   
+   (   0.00438596   0.991228   0.00438596));   % SkinThickness="(36.000, 94.7000]"   
+}
+
+potential ( BMI | Insulin   ) {
+   data = 
+   ((   0.992157   0.00392157   0.00392157)   % Insulin="(156.0000, 552.0000]"   
+   (   0.998605   0.00069735   0.00069735)   % Insulin="(2.000, 93.9000]"   
+   (   0.169953   0.761502   0.0685446));   % Insulin="(93.00000, 156.4000]"   
+}
+
+potential ( DiabetesPedigreeFunction | BMI   ) {
+   data = 
+   ((   0.000803859   0.999196)   % BMI="(1.000, 33.0000]"   
+   (   0.776753   0.223247)   % BMI="(33.000, 47.1000]"   
+   (   0.02   0.98));   % BMI="(47.000, 65.0000]"   
+}
+
+potential ( Age | DiabetesPedigreeFunction   ) {
+   data = 
+   ((   0.471631   0.528369)   % DiabetesPedigreeFunction="(0.000, 1.5000]"   
+   (   0.998938   0.00106157));   % DiabetesPedigreeFunction="(0.0000, 0.2000]"   
+}
+
+potential ( Diabetes? | DiabetesPedigreeFunction   Glucose   ) {
+   data = 
+   (((   0.47153   0.52847)   % DiabetesPedigreeFunction="(0.000, 1.5000]"   Glucose="(3.000, 71.0000]"   
+   (   0.999257   0.000742942))   % DiabetesPedigreeFunction="(0.0000, 0.2000]"   Glucose="(3.000, 71.0000]"   
+   ((   0.5   0.5)   % DiabetesPedigreeFunction="(0.000, 1.5000]"   Glucose="(71.0000, 196.9000]"   
+   (   0.908922   0.0910781)));   % DiabetesPedigreeFunction="(0.0000, 0.2000]"   Glucose="(71.0000, 196.9000]"   
+}
+
+

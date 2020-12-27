@@ -1,0 +1,684 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.17.0";
+  node_size = (50 50);
+}
+
+node radius_mean {
+   states = ("(8.0000, 27.2000]" );
+   label = "radius_mean";
+   ID = "radius_mean";
+}
+
+node texture_mean {
+   states = ("(14.000, 34.0000]" "(34.000, 38.8000]" );
+   label = "texture_mean";
+   ID = "texture_mean";
+}
+
+node perimeter_mean {
+   states = ("(163.00000, 188.4000]" "(62.00000, 163.4000]" );
+   label = "perimeter_mean";
+   ID = "perimeter_mean";
+}
+
+node area_mean {
+   states = ("(1835.000000, 2235.5000]" "(197.8900, 1835.3000]" );
+   label = "area_mean";
+   ID = "area_mean";
+}
+
+node smoothness_mean {
+   states = ("(0.000, 0.1000]" "(0.0000, 0.1000]" );
+   label = "smoothness_mean";
+   ID = "smoothness_mean";
+}
+
+node compactness_mean {
+   states = ("(0.000, 0.3000]" "(0.0000, 0.2000]" );
+   label = "compactness_mean";
+   ID = "compactness_mean";
+}
+
+node concavity_mean {
+   states = ("(0.000, 0.4000]" "(0.0000, 0.4000]" );
+   label = "concavity_mean";
+   ID = "concavity_mean";
+}
+
+node concave points_mean {
+   states = ("(-0.0059, 0.0900]" "(0.0000, 0.1000]" );
+   label = "concave points_mean";
+   ID = "concave points_mean";
+}
+
+node symmetry_mean {
+   states = ("(0.00, 0.2000]" );
+   label = "symmetry_mean";
+   ID = "symmetry_mean";
+}
+
+node fractal_dimension_mean {
+   states = ("(0.0000, 0.0000]" "(0.0000, 0.0900]" "(0.0419, 0.0500]" );
+   label = "fractal_dimension_mean";
+   ID = "fractal_dimension_mean";
+}
+
+node radius_se {
+   states = ("(0.000, 1.2000]" "(1.000, 2.8000]" );
+   label = "radius_se";
+   ID = "radius_se";
+}
+
+node texture_se {
+   states = ("(0.000, 1.2000]" "(1.000, 2.2000]" "(2.000, 3.7000]" );
+   label = "texture_se";
+   ID = "texture_se";
+}
+
+node perimeter_se {
+   states = ("(10.000, 21.8000]" "(2.0100, 8.3000]" "(8.000, 10.0000]" );
+   label = "perimeter_se";
+   ID = "perimeter_se";
+}
+
+node area_se {
+   states = ("(12.00000, 169.9000]" "(169.00000, 482.0000]" "(482.00000, 534.1000]" );
+   label = "area_se";
+   ID = "area_se";
+}
+
+node smoothness_se {
+   states = ("(-0.0062, 0.0070]" "(0.0000, 0.0000]" "(0.0073, 0.0200]" );
+   label = "smoothness_se";
+   ID = "smoothness_se";
+}
+
+node compactness_se {
+   states = ("(0.0000, 0.1000]" "(0.00000, 0.0800]" "(0.0119, 0.0600]" );
+   label = "compactness_se";
+   ID = "compactness_se";
+}
+
+node concavity_se {
+   states = ("(0.000, 0.2000]" "(0.0000, 0.0000]" );
+   label = "concavity_se";
+   ID = "concavity_se";
+}
+
+node concave points_se {
+   states = ("(0.000, 0.0100]" "(0.00000, 0.0300]" );
+   label = "concave points_se";
+   ID = "concave points_se";
+}
+
+node symmetry_se {
+   states = ("(-0.0017, 0.0200]" "(0.00000, 0.0300]" "(0.00000, 0.0500]" );
+   label = "symmetry_se";
+   ID = "symmetry_se";
+}
+
+node fractal_dimension_se {
+   states = ("(-0.0088, 0.0020]" "(0.0026, 0.0060]" "(0.0064, 0.0090]" );
+   label = "fractal_dimension_se";
+   ID = "fractal_dimension_se";
+}
+
+node radius_worst {
+   states = ("(11.000, 28.0000]" "(28.000, 33.4000]" "(33.0000, 35.2000]" );
+   label = "radius_worst";
+   ID = "radius_worst";
+}
+
+node texture_worst {
+   states = ("(15.0000, 28.0000]" "(28.000, 31.0000]" "(31.000, 40.7000]" );
+   label = "texture_worst";
+   ID = "texture_worst";
+}
+
+node perimeter_worst {
+   states = ("(121.0899, 168.5000]" "(168.0000, 206.0000]" "(206.0000, 236.5000]" );
+   label = "perimeter_worst";
+   ID = "perimeter_worst";
+}
+
+node area_worst {
+   states = ("(2360.000000, 3893.2000]" "(257.000000, 2360.1000]" );
+   label = "area_worst";
+   ID = "area_worst";
+}
+
+node smoothness_worst {
+   states = ("(0.000, 0.2000]" "(0.0750, 0.1000]" );
+   label = "smoothness_worst";
+   ID = "smoothness_worst";
+}
+
+node compactness_worst {
+   states = ("(0.000, 0.7000]" "(0.000, 0.9000]" );
+   label = "compactness_worst";
+   ID = "compactness_worst";
+}
+
+node concavity_worst {
+   states = ("(0.0029, 1.0000]" "(1.000, 1.1000]" );
+   label = "concavity_worst";
+   ID = "concavity_worst";
+}
+
+node concave points_worst {
+   states = ("(0.0009, 0.2000]" );
+   label = "concave points_worst";
+   ID = "concave points_worst";
+}
+
+node symmetry_worst {
+   states = ("(0.000, 0.4000]" "(0.000, 0.6000]" );
+   label = "symmetry_worst";
+   ID = "symmetry_worst";
+}
+
+node fractal_dimension_worst {
+   states = ("(0.0000, 0.1000]" "(0.00000, 0.0900]" );
+   label = "fractal_dimension_worst";
+   ID = "fractal_dimension_worst";
+}
+
+node diagnosis {
+   states = (Yes );
+   label = "diagnosis";
+   ID = "diagnosis";
+}
+
+potential ( radius_mean | area_se   smoothness_mean   ) {
+   data = 
+   (((   1)   % area_se="(12.00000, 169.9000]"   smoothness_mean="(0.000, 0.1000]"   
+   (   1)   % area_se="(169.00000, 482.0000]"   smoothness_mean="(0.000, 0.1000]"   
+   (   1))   % area_se="(482.00000, 534.1000]"   smoothness_mean="(0.000, 0.1000]"   
+   ((   1)   % area_se="(12.00000, 169.9000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % area_se="(169.00000, 482.0000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)));   % area_se="(482.00000, 534.1000]"   smoothness_mean="(0.0000, 0.1000]"   
+}
+
+potential ( texture_mean | smoothness_mean   ) {
+   data = 
+   ((   0.973118   0.0268817)   % smoothness_mean="(0.000, 0.1000]"   
+   (   0.999022   0.000978474));   % smoothness_mean="(0.0000, 0.1000]"   
+}
+
+potential ( perimeter_mean | smoothness_mean   ) {
+   data = 
+   ((   0.0483871   0.951613)   % smoothness_mean="(0.000, 0.1000]"   
+   (   0.000978474   0.999022));   % smoothness_mean="(0.0000, 0.1000]"   
+}
+
+potential ( area_mean | smoothness_mean   ) {
+   data = 
+   ((   0.0698925   0.930108)   % smoothness_mean="(0.000, 0.1000]"   
+   (   0.000978474   0.999022));   % smoothness_mean="(0.0000, 0.1000]"   
+}
+
+potential ( smoothness_mean | compactness_mean   ) {
+   data = 
+   ((   0.833333   0.166667)   % compactness_mean="(0.000, 0.3000]"   
+   (   0.0010142   0.998986));   % compactness_mean="(0.0000, 0.2000]"   
+}
+
+potential ( compactness_mean | concavity_mean   ) {
+   data = 
+   ((   0.898374   0.101626)   % concavity_mean="(0.000, 0.4000]"   
+   (   0.0010395   0.99896));   % concavity_mean="(0.0000, 0.4000]"   
+}
+
+potential ( concavity_mean | concave points_mean   ) {
+   data = 
+   ((   0.0010989   0.998901)   % concave points_mean="(-0.0059, 0.0900]"   
+   (   0.822148   0.177852));   % concave points_mean="(0.0000, 0.1000]"   
+}
+
+potential ( concave points_mean | fractal_dimension_mean   ) {
+   data = 
+   ((   0.196751   0.803249)   % fractal_dimension_mean="(0.0000, 0.0000]"   
+   (   0.977273   0.0227273)   % fractal_dimension_mean="(0.0000, 0.0900]"   
+   (   0.999176   0.000823723));   % fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+potential ( symmetry_mean | area_worst   perimeter_worst   area_se   fractal_dimension_worst   smoothness_mean   smoothness_worst   ) {
+   data = 
+   (((((((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1)))))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (((((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   (   1))))))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   
+   ((((((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (((((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1))   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   ((   1)   % area_worst="(2360.000000, 3893.2000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+   (   1)))))));   % area_worst="(257.000000, 2360.1000]"   perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   
+}
+
+potential ( fractal_dimension_mean | radius_se   ) {
+   data = 
+   ((   0.899187   0.0699187   0.0308943)   % radius_se="(0.000, 1.2000]"   
+   (   0.000835422   0.000835422   0.998329));   % radius_se="(1.000, 2.8000]"   
+}
+
+potential ( radius_se | texture_se   ) {
+   data = 
+   ((   0.893586   0.106414)   % texture_se="(0.000, 1.2000]"   
+   (   0.000909091   0.999091)   % texture_se="(1.000, 2.2000]"   
+   (   0.0384615   0.961538));   % texture_se="(2.000, 3.7000]"   
+}
+
+potential ( texture_se | perimeter_se   ) {
+   data = 
+   ((   0.0151515   0.969697   0.0151515)   % perimeter_se="(10.000, 21.8000]"   
+   (   0.000644745   0.998711   0.000644745)   % perimeter_se="(2.0100, 8.3000]"   
+   (   0.932788   0.0336058   0.0336058));   % perimeter_se="(8.000, 10.0000]"   
+}
+
+potential ( perimeter_se | area_se   ) {
+   data = 
+   ((   0.0533333   0.0308333   0.915833)   % area_se="(12.00000, 169.9000]"   
+   (   0.000664011   0.998672   0.000664011)   % area_se="(169.00000, 482.0000]"   
+   (   0.0833333   0.833333   0.0833333));   % area_se="(482.00000, 534.1000]"   
+}
+
+potential ( area_se | smoothness_se   ) {
+   data = 
+   ((   0.922248   0.0700539   0.00769823)   % smoothness_se="(-0.0062, 0.0070]"   
+   (   0.0833333   0.833333   0.0833333)   % smoothness_se="(0.0000, 0.0000]"   
+   (   0.000710732   0.998579   0.000710732));   % smoothness_se="(0.0073, 0.0200]"   
+}
+
+potential ( smoothness_se | compactness_se   ) {
+   data = 
+   ((   0.025641   0.025641   0.948718)   % compactness_se="(0.0000, 0.1000]"   
+   (   0.939855   0.00724638   0.0528986)   % compactness_se="(0.00000, 0.0800]"   
+   (   0.000769823   0.000769823   0.99846));   % compactness_se="(0.0119, 0.0600]"   
+}
+
+potential (compactness_se) {
+   data = (  0.0143488 0.507726 0.477925);
+}
+
+potential ( concavity_se | compactness_se   ) {
+   data = 
+   ((   0.0384615   0.961538)   % compactness_se="(0.0000, 0.1000]"   
+   (   0.00108696   0.998913)   % compactness_se="(0.00000, 0.0800]"   
+   (   0.93649   0.0635104));   % compactness_se="(0.0119, 0.0600]"   
+}
+
+potential ( concave points_se | concavity_se   ) {
+   data = 
+   ((   0.0756458   0.924354)   % concavity_se="(0.000, 0.2000]"   
+   (   0.998498   0.0015015));   % concavity_se="(0.0000, 0.0000]"   
+}
+
+potential ( symmetry_se | concave points_se   ) {
+   data = 
+   ((   0.000944287   0.998111   0.000944287)   % concave points_se="(0.000, 0.0100]"   
+   (   0.901726   0.0411687   0.0571049));   % concave points_se="(0.00000, 0.0300]"   
+}
+
+potential ( fractal_dimension_se | symmetry_se   ) {
+   data = 
+   ((   0.0362745   0.927451   0.0362745)   % symmetry_se="(-0.0017, 0.0200]"   
+   (   0.998775   0.000612745   0.000612745)   % symmetry_se="(0.00000, 0.0300]"   
+   (   0.969697   0.0151515   0.0151515));   % symmetry_se="(0.00000, 0.0500]"   
+}
+
+potential ( radius_worst | radius_mean   fractal_dimension_se   ) {
+   data = 
+   (((   0.998845   0.000577701   0.000577701))   % radius_mean="(8.0000, 27.2000]"   fractal_dimension_se="(-0.0088, 0.0020]"   
+   ((   0.105485   0.883966   0.0105485))   % radius_mean="(8.0000, 27.2000]"   fractal_dimension_se="(0.0026, 0.0060]"   
+   ((   0.948718   0.025641   0.025641)));   % radius_mean="(8.0000, 27.2000]"   fractal_dimension_se="(0.0064, 0.0090]"   
+}
+
+potential ( texture_worst | radius_worst   radius_mean   ) {
+   data = 
+   (((   0.998928   0.000535906   0.000535906)   % radius_worst="(11.000, 28.0000]"   radius_mean="(8.0000, 27.2000]"   
+   (   0.0654762   0.890476   0.0440476)   % radius_worst="(28.000, 33.4000]"   radius_mean="(8.0000, 27.2000]"   
+   (   0.833333   0.0833333   0.0833333)));   % radius_worst="(33.0000, 35.2000]"   radius_mean="(8.0000, 27.2000]"   
+}
+
+potential ( perimeter_worst | texture_worst   concave points_worst   ) {
+   data = 
+   (((   0.000518403   0.998963   0.000518403)   % texture_worst="(15.0000, 28.0000]"   concave points_worst="(0.0009, 0.2000]"   
+   (   0.913333   0.0733333   0.0133333)   % texture_worst="(28.000, 31.0000]"   concave points_worst="(0.0009, 0.2000]"   
+   (   0.025641   0.948718   0.025641)));   % texture_worst="(31.000, 40.7000]"   concave points_worst="(0.0009, 0.2000]"   
+}
+
+potential ( area_worst | perimeter_worst   ) {
+   data = 
+   ((   0.853712   0.146288)   % perimeter_worst="(121.0899, 168.5000]"   
+   (   0.000742942   0.999257)   % perimeter_worst="(168.0000, 206.0000]"   
+   (   0.125   0.875));   % perimeter_worst="(206.0000, 236.5000]"   
+}
+
+potential ( smoothness_worst | area_worst   ) {
+   data = 
+   ((   0.843511   0.156489)   % area_worst="(2360.000000, 3893.2000]"   
+   (   0.00105708   0.998943));   % area_worst="(257.000000, 2360.1000]"   
+}
+
+potential ( compactness_worst | smoothness_worst   ) {
+   data = 
+   ((   0.202703   0.797297)   % smoothness_worst="(0.000, 0.2000]"   
+   (   0.998986   0.0010142));   % smoothness_worst="(0.0750, 0.1000]"   
+}
+
+potential ( concavity_worst | compactness_worst   ) {
+   data = 
+   ((   0.999029   0.000970874)   % compactness_worst="(0.000, 0.7000]"   
+   (   0.297753   0.702247));   % compactness_worst="(0.000, 0.9000]"   
+}
+
+potential ( concave points_worst | area_se   smoothness_mean   ) {
+   data = 
+   (((   1)   % area_se="(12.00000, 169.9000]"   smoothness_mean="(0.000, 0.1000]"   
+   (   1)   % area_se="(169.00000, 482.0000]"   smoothness_mean="(0.000, 0.1000]"   
+   (   1))   % area_se="(482.00000, 534.1000]"   smoothness_mean="(0.000, 0.1000]"   
+   ((   1)   % area_se="(12.00000, 169.9000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)   % area_se="(169.00000, 482.0000]"   smoothness_mean="(0.0000, 0.1000]"   
+   (   1)));   % area_se="(482.00000, 534.1000]"   smoothness_mean="(0.0000, 0.1000]"   
+}
+
+potential ( symmetry_worst | fractal_dimension_worst   concavity_worst   ) {
+   data = 
+   (((   0.5   0.5)   % fractal_dimension_worst="(0.0000, 0.1000]"   concavity_worst="(0.0029, 1.0000]"   
+   (   0.999537   0.000462535))   % fractal_dimension_worst="(0.00000, 0.0900]"   concavity_worst="(0.0029, 1.0000]"   
+   ((   0.986486   0.0135135)   % fractal_dimension_worst="(0.0000, 0.1000]"   concavity_worst="(1.000, 1.1000]"   
+   (   0.814607   0.185393)));   % fractal_dimension_worst="(0.00000, 0.0900]"   concavity_worst="(1.000, 1.1000]"   
+}
+
+potential ( fractal_dimension_worst | concavity_worst   ) {
+   data = 
+   ((   0.000924214   0.999076)   % concavity_worst="(0.0029, 1.0000]"   
+   (   0.293651   0.706349));   % concavity_worst="(1.000, 1.1000]"   
+}
+
+potential ( diagnosis | perimeter_worst   area_se   fractal_dimension_worst   smoothness_mean   smoothness_worst   area_worst   ) {
+   data = 
+   (((((((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)))))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(2360.000000, 3893.2000]"   
+   (((((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   (   1))))))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(2360.000000, 3893.2000]"   
+   ((((((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   ((((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)))))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.000, 0.2000]"   area_worst="(257.000000, 2360.1000]"   
+   (((((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   ((((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.0000, 0.1000]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(12.00000, 169.9000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1))   % perimeter_worst="(206.0000, 236.5000]"   area_se="(169.00000, 482.0000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   ((   1)   % perimeter_worst="(121.0899, 168.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)   % perimeter_worst="(168.0000, 206.0000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+   (   1)))))));   % perimeter_worst="(206.0000, 236.5000]"   area_se="(482.00000, 534.1000]"   fractal_dimension_worst="(0.00000, 0.0900]"   smoothness_mean="(0.0000, 0.1000]"   smoothness_worst="(0.0750, 0.1000]"   area_worst="(257.000000, 2360.1000]"   
+}
+
+

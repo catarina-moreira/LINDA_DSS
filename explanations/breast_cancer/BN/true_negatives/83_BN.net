@@ -1,0 +1,893 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.17.0";
+  node_size = (50 50);
+}
+
+node radius_mean {
+   states = ("(8.0000, 27.2000]" );
+   label = "radius_mean";
+   ID = "radius_mean";
+}
+
+node texture_mean {
+   states = ("(14.000, 34.0000]" "(34.000, 38.8000]" );
+   label = "texture_mean";
+   ID = "texture_mean";
+}
+
+node perimeter_mean {
+   states = ("(163.00000, 188.4000]" "(62.00000, 163.4000]" );
+   label = "perimeter_mean";
+   ID = "perimeter_mean";
+}
+
+node area_mean {
+   states = ("(1835.000000, 2235.5000]" "(197.8900, 1835.3000]" );
+   label = "area_mean";
+   ID = "area_mean";
+}
+
+node smoothness_mean {
+   states = ("(0.000, 0.1000]" "(0.0619, 0.1000]" );
+   label = "smoothness_mean";
+   ID = "smoothness_mean";
+}
+
+node compactness_mean {
+   states = ("(0.000, 0.3000]" "(0.0000, 0.2000]" );
+   label = "compactness_mean";
+   ID = "compactness_mean";
+}
+
+node concavity_mean {
+   states = ("(0.0000, 0.4000]" );
+   label = "concavity_mean";
+   ID = "concavity_mean";
+}
+
+node concave points_mean {
+   states = ("(-0.0059, 0.0000]" "(0.0000, 0.0900]" "(0.0000, 0.1000]" );
+   label = "concave points_mean";
+   ID = "concave points_mean";
+}
+
+node symmetry_mean {
+   states = ("(0.00, 0.1000]" "(0.000, 0.2000]" );
+   label = "symmetry_mean";
+   ID = "symmetry_mean";
+}
+
+node fractal_dimension_mean {
+   states = ("(0.00000, 0.0500]" "(0.00000, 0.0900]" "(0.0419, 0.0500]" );
+   label = "fractal_dimension_mean";
+   ID = "fractal_dimension_mean";
+}
+
+node radius_se {
+   states = ("(0.000, 0.3000]" "(0.000, 2.8000]" );
+   label = "radius_se";
+   ID = "radius_se";
+}
+
+node texture_se {
+   states = ("(0.000, 0.7000]" "(0.000, 2.2000]" "(2.000, 3.7000]" );
+   label = "texture_se";
+   ID = "texture_se";
+}
+
+node perimeter_se {
+   states = ("(2.000, 8.3000]" "(2.0100, 2.0000]" "(8.0000, 21.8000]" );
+   label = "perimeter_se";
+   ID = "perimeter_se";
+}
+
+node area_se {
+   states = ("(12.0000, 28.9000]" "(28.00000, 482.0000]" "(482.00000, 534.1000]" );
+   label = "area_se";
+   ID = "area_se";
+}
+
+node smoothness_se {
+   states = ("(-0.0062, 0.0050]" "(0.0000, 0.0000]" "(0.0059, 0.0200]" );
+   label = "smoothness_se";
+   ID = "smoothness_se";
+}
+
+node compactness_se {
+   states = ("(-0.0033, 0.0600]" "(0.0000, 0.1000]" );
+   label = "compactness_se";
+   ID = "compactness_se";
+}
+
+node concavity_se {
+   states = ("(-0.0059, 0.2000]" );
+   label = "concavity_se";
+   ID = "concavity_se";
+}
+
+node concave points_se {
+   states = ("(-0.0051, 0.0300]" );
+   label = "concave points_se";
+   ID = "concave points_se";
+}
+
+node symmetry_se {
+   states = ("(-0.0017, 0.0100]" "(0.00000, 0.0200]" "(0.00000, 0.0500]" );
+   label = "symmetry_se";
+   ID = "symmetry_se";
+}
+
+node fractal_dimension_se {
+   states = ("(-0.0091, 0.0060]" "(0.0064, 0.0090]" );
+   label = "fractal_dimension_se";
+   ID = "fractal_dimension_se";
+}
+
+node radius_worst {
+   states = ("(11.0000, 16.4000]" "(16.0000, 33.4000]" "(33.0000, 35.2000]" );
+   label = "radius_worst";
+   ID = "radius_worst";
+}
+
+node texture_worst {
+   states = ("(15.0000, 21.7000]" "(21.000, 31.0000]" "(31.000, 40.7000]" );
+   label = "texture_worst";
+   ID = "texture_worst";
+}
+
+node perimeter_worst {
+   states = ("(103.6999, 144.5000]" "(144.00000, 236.5000]" );
+   label = "perimeter_worst";
+   ID = "perimeter_worst";
+}
+
+node area_worst {
+   states = ("(257.00000, 840.6000]" "(840.000000, 3893.2000]" );
+   label = "area_worst";
+   ID = "area_worst";
+}
+
+node smoothness_worst {
+   states = ("(0.000, 0.2000]" "(0.0750, 0.1000]" );
+   label = "smoothness_worst";
+   ID = "smoothness_worst";
+}
+
+node compactness_worst {
+   states = ("(0.0000, 0.9000]" );
+   label = "compactness_worst";
+   ID = "compactness_worst";
+}
+
+node concavity_worst {
+   states = ("(0.0000, 1.1000]" "(0.0029, 0.0500]" );
+   label = "concavity_worst";
+   ID = "concavity_worst";
+}
+
+node concave points_worst {
+   states = ("(0.000, 0.0000]" "(0.0009, 0.0500]" );
+   label = "concave points_worst";
+   ID = "concave points_worst";
+}
+
+node symmetry_worst {
+   states = ("(0.000, 0.2000]" "(0.000, 0.6000]" );
+   label = "symmetry_worst";
+   ID = "symmetry_worst";
+}
+
+node fractal_dimension_worst {
+   states = ("(0.0000, 0.1000]" );
+   label = "fractal_dimension_worst";
+   ID = "fractal_dimension_worst";
+}
+
+node diagnosis {
+   states = (No Yes );
+   label = "diagnosis";
+   ID = "diagnosis";
+}
+
+potential ( radius_mean | texture_se   concave points_worst   perimeter_worst   diagnosis   concave points_mean   perimeter_mean   ) {
+   data = 
+   (((((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(163.00000, 188.4000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   (   1))))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(163.00000, 188.4000]"   
+   ((((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   perimeter_mean="(62.00000, 163.4000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+   (   1)))))));   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   perimeter_mean="(62.00000, 163.4000]"   
+}
+
+potential ( texture_mean | diagnosis   ) {
+   data = 
+   ((   0.98503   0.0149701)   % diagnosis=No   
+   (   0.998856   0.00114416));   % diagnosis=Yes   
+}
+
+potential ( perimeter_mean | diagnosis   ) {
+   data = 
+   ((   0.0269461   0.973054)   % diagnosis=No   
+   (   0.00114416   0.998856));   % diagnosis=Yes   
+}
+
+potential ( area_mean | diagnosis   ) {
+   data = 
+   ((   0.0389222   0.961078)   % diagnosis=No   
+   (   0.00114416   0.998856));   % diagnosis=Yes   
+}
+
+potential ( smoothness_mean | diagnosis   ) {
+   data = 
+   ((   0.0628743   0.937126)   % diagnosis=No   
+   (   0.00114416   0.998856));   % diagnosis=Yes   
+}
+
+potential ( compactness_mean | diagnosis   ) {
+   data = 
+   ((   0.0508982   0.949102)   % diagnosis=No   
+   (   0.00114416   0.998856));   % diagnosis=Yes   
+}
+
+potential ( concavity_mean | perimeter_worst   diagnosis   smoothness_se   area_worst   concavity_worst   texture_se   ) {
+   data = 
+   (((((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   ((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (   1)))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 0.7000]"   
+   (((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   ((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   (   1))))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 0.7000]"   
+   ((((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   ((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (   1)))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(0.000, 2.2000]"   
+   (((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   ((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   (   1))))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(0.000, 2.2000]"   
+   ((((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   ((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (   1)))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0000, 1.1000]"   texture_se="(2.000, 3.7000]"   
+   (((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1))))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(257.00000, 840.6000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   ((((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(-0.0062, 0.0050]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1)))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0000, 0.0000]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1))   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   ((   1)   % perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+   (   1)))))));   % perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   smoothness_se="(0.0059, 0.0200]"   area_worst="(840.000000, 3893.2000]"   concavity_worst="(0.0029, 0.0500]"   texture_se="(2.000, 3.7000]"   
+}
+
+potential ( concave points_mean | symmetry_mean   diagnosis   fractal_dimension_mean   ) {
+   data = 
+   ((((   0.333333   0.333333   0.333333)   % symmetry_mean="(0.00, 0.1000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0500]"   
+   (   0.333333   0.333333   0.333333))   % symmetry_mean="(0.000, 0.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0500]"   
+   ((   0.000138141   0.999724   0.000138141)   % symmetry_mean="(0.00, 0.1000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0500]"   
+   (   0.333333   0.333333   0.333333)))   % symmetry_mean="(0.000, 0.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0500]"   
+   (((   0.00343643   0.993127   0.00343643)   % symmetry_mean="(0.00, 0.1000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   
+   (   0.333333   0.333333   0.333333))   % symmetry_mean="(0.000, 0.2000]"   diagnosis=No   fractal_dimension_mean="(0.00000, 0.0900]"   
+   ((   0.333333   0.333333   0.333333)   % symmetry_mean="(0.00, 0.1000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   
+   (   0.333333   0.333333   0.333333)))   % symmetry_mean="(0.000, 0.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.00000, 0.0900]"   
+   (((   0.99926   0.000369959   0.000369959)   % symmetry_mean="(0.00, 0.1000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   0.333333   0.333333   0.333333))   % symmetry_mean="(0.000, 0.2000]"   diagnosis=No   fractal_dimension_mean="(0.0419, 0.0500]"   
+   ((   0.0927318   0.634085   0.273183)   % symmetry_mean="(0.00, 0.1000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   
+   (   0.00456621   0.990868   0.00456621))));   % symmetry_mean="(0.000, 0.2000]"   diagnosis=Yes   fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+potential ( symmetry_mean | radius_se   diagnosis   ) {
+   data = 
+   (((   0.998498   0.0015015)   % radius_se="(0.000, 0.3000]"   diagnosis=No   
+   (   0.5   0.5))   % radius_se="(0.000, 2.8000]"   diagnosis=No   
+   ((   0.681818   0.318182)   % radius_se="(0.000, 0.3000]"   diagnosis=Yes   
+   (   0.999373   0.000627353)));   % radius_se="(0.000, 2.8000]"   diagnosis=Yes   
+}
+
+potential ( fractal_dimension_mean | radius_se   ) {
+   data = 
+   ((   0.0211382   0.0796748   0.899187)   % radius_se="(0.000, 0.3000]"   
+   (   0.998329   0.000835422   0.000835422));   % radius_se="(0.000, 2.8000]"   
+}
+
+potential ( radius_se | texture_worst   ) {
+   data = 
+   ((   0.481162   0.518838)   % texture_worst="(15.0000, 21.7000]"   
+   (   0.00195312   0.998047)   % texture_worst="(21.000, 31.0000]"   
+   (   0.0384615   0.961538));   % texture_worst="(31.000, 40.7000]"   
+}
+
+potential ( texture_se | radius_se   perimeter_se   ) {
+   data = 
+   (((   0.333333   0.333333   0.333333)   % radius_se="(0.000, 0.3000]"   perimeter_se="(2.000, 8.3000]"   
+   (   0.00032457   0.999351   0.00032457))   % radius_se="(0.000, 2.8000]"   perimeter_se="(2.000, 8.3000]"   
+   ((   0.998912   0.000543774   0.000543774)   % radius_se="(0.000, 0.3000]"   perimeter_se="(2.0100, 2.0000]"   
+   (   0.548209   0.250689   0.201102))   % radius_se="(0.000, 2.8000]"   perimeter_se="(2.0100, 2.0000]"   
+   ((   0.333333   0.333333   0.333333)   % radius_se="(0.000, 0.3000]"   perimeter_se="(8.0000, 21.8000]"   
+   (   0.00680272   0.986395   0.00680272)));   % radius_se="(0.000, 2.8000]"   perimeter_se="(8.0000, 21.8000]"   
+}
+
+potential ( perimeter_se | radius_se   texture_worst   ) {
+   data = 
+   (((   0.000543774   0.998912   0.000543774)   % radius_se="(0.000, 0.3000]"   texture_worst="(15.0000, 21.7000]"   
+   (   0.744831   0.182047   0.0731215))   % radius_se="(0.000, 2.8000]"   texture_worst="(15.0000, 21.7000]"   
+   ((   0.333333   0.333333   0.333333)   % radius_se="(0.000, 0.3000]"   texture_worst="(21.000, 31.0000]"   
+   (   0.998695   0.000652316   0.000652316))   % radius_se="(0.000, 2.8000]"   texture_worst="(21.000, 31.0000]"   
+   ((   0.333333   0.333333   0.333333)   % radius_se="(0.000, 0.3000]"   texture_worst="(31.000, 40.7000]"   
+   (   0.973333   0.0133333   0.0133333)));   % radius_se="(0.000, 2.8000]"   texture_worst="(31.000, 40.7000]"   
+}
+
+potential ( area_se | perimeter_se   area_worst   ) {
+   data = 
+   (((   0.0199246   0.969844   0.0102316)   % perimeter_se="(2.000, 8.3000]"   area_worst="(257.00000, 840.6000]"   
+   (   0.99909   0.000454752   0.000454752)   % perimeter_se="(2.0100, 2.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   0.986395   0.00680272   0.00680272))   % perimeter_se="(8.0000, 21.8000]"   area_worst="(257.00000, 840.6000]"   
+   ((   0.000814996   0.99837   0.000814996)   % perimeter_se="(2.000, 8.3000]"   area_worst="(840.000000, 3893.2000]"   
+   (   0.333333   0.333333   0.333333)   % perimeter_se="(2.0100, 2.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   0.333333   0.333333   0.333333)));   % perimeter_se="(8.0000, 21.8000]"   area_worst="(840.000000, 3893.2000]"   
+}
+
+potential ( smoothness_se | texture_worst   area_se   ) {
+   data = 
+   (((   0.999439   0.000280348   0.000280348)   % texture_worst="(15.0000, 21.7000]"   area_se="(12.0000, 28.9000]"   
+   (   0.333333   0.333333   0.333333)   % texture_worst="(21.000, 31.0000]"   area_se="(12.0000, 28.9000]"   
+   (   0.333333   0.333333   0.333333))   % texture_worst="(31.000, 40.7000]"   area_se="(12.0000, 28.9000]"   
+   ((   0.139513   0.0131086   0.847378)   % texture_worst="(15.0000, 21.7000]"   area_se="(28.00000, 482.0000]"   
+   (   0.000435161   0.000435161   0.99913)   % texture_worst="(21.000, 31.0000]"   area_se="(28.00000, 482.0000]"   
+   (   0.00900901   0.00900901   0.981982))   % texture_worst="(31.000, 40.7000]"   area_se="(28.00000, 482.0000]"   
+   ((   0.933333   0.0333333   0.0333333)   % texture_worst="(15.0000, 21.7000]"   area_se="(482.00000, 534.1000]"   
+   (   0.333333   0.333333   0.333333)   % texture_worst="(21.000, 31.0000]"   area_se="(482.00000, 534.1000]"   
+   (   0.333333   0.333333   0.333333)));   % texture_worst="(31.000, 40.7000]"   area_se="(482.00000, 534.1000]"   
+}
+
+potential ( compactness_se | symmetry_se   smoothness_se   ) {
+   data = 
+   (((   0.999614   0.000385505)   % symmetry_se="(-0.0017, 0.0100]"   smoothness_se="(-0.0062, 0.0050]"   
+   (   0.5   0.5)   % symmetry_se="(0.00000, 0.0200]"   smoothness_se="(-0.0062, 0.0050]"   
+   (   0.5   0.5))   % symmetry_se="(0.00000, 0.0500]"   smoothness_se="(-0.0062, 0.0050]"   
+   ((   0.95   0.05)   % symmetry_se="(-0.0017, 0.0100]"   smoothness_se="(0.0000, 0.0000]"   
+   (   0.5   0.5)   % symmetry_se="(0.00000, 0.0200]"   smoothness_se="(0.0000, 0.0000]"   
+   (   0.5   0.5))   % symmetry_se="(0.00000, 0.0500]"   smoothness_se="(0.0000, 0.0000]"   
+   ((   0.836826   0.163174)   % symmetry_se="(-0.0017, 0.0100]"   smoothness_se="(0.0059, 0.0200]"   
+   (   0.999504   0.00049554)   % symmetry_se="(0.00000, 0.0200]"   smoothness_se="(0.0059, 0.0200]"   
+   (   0.992188   0.0078125)));   % symmetry_se="(0.00000, 0.0500]"   smoothness_se="(0.0059, 0.0200]"   
+}
+
+potential ( concavity_se | texture_se   diagnosis   symmetry_worst   ) {
+   data = 
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   symmetry_worst="(0.000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   symmetry_worst="(0.000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   symmetry_worst="(0.000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   symmetry_worst="(0.000, 0.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.6000]"   
+   (   1))));   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.6000]"   
+}
+
+potential ( concave points_se | texture_se   concave points_worst   perimeter_worst   diagnosis   concave points_mean   area_worst   ) {
+   data = 
+   (((((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(257.00000, 840.6000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(257.00000, 840.6000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   (   1))))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(257.00000, 840.6000]"   
+   ((((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(-0.0059, 0.0000]"   area_worst="(840.000000, 3893.2000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.0900]"   area_worst="(840.000000, 3893.2000]"   
+   (((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=No   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   ((((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(103.6999, 144.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.000, 0.0000]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+   (   1)))))));   % texture_se="(2.000, 3.7000]"   concave points_worst="(0.0009, 0.0500]"   perimeter_worst="(144.00000, 236.5000]"   diagnosis=Yes   concave points_mean="(0.0000, 0.1000]"   area_worst="(840.000000, 3893.2000]"   
+}
+
+potential ( symmetry_se | radius_worst   smoothness_se   ) {
+   data = 
+   (((   0.999486   0.000257003   0.000257003)   % radius_worst="(11.0000, 16.4000]"   smoothness_se="(-0.0062, 0.0050]"   
+   (   0.333333   0.333333   0.333333)   % radius_worst="(16.0000, 33.4000]"   smoothness_se="(-0.0062, 0.0050]"   
+   (   0.333333   0.333333   0.333333))   % radius_worst="(33.0000, 35.2000]"   smoothness_se="(-0.0062, 0.0050]"   
+   ((   0.933333   0.0333333   0.0333333)   % radius_worst="(11.0000, 16.4000]"   smoothness_se="(0.0000, 0.0000]"   
+   (   0.333333   0.333333   0.333333)   % radius_worst="(16.0000, 33.4000]"   smoothness_se="(0.0000, 0.0000]"   
+   (   0.333333   0.333333   0.333333))   % radius_worst="(33.0000, 35.2000]"   smoothness_se="(0.0000, 0.0000]"   
+   ((   0.648508   0.228275   0.123217)   % radius_worst="(11.0000, 16.4000]"   smoothness_se="(0.0059, 0.0200]"   
+   (   0.000377501   0.999245   0.000377501)   % radius_worst="(16.0000, 33.4000]"   smoothness_se="(0.0059, 0.0200]"   
+   (   0.0333333   0.933333   0.0333333)));   % radius_worst="(33.0000, 35.2000]"   smoothness_se="(0.0059, 0.0200]"   
+}
+
+potential ( fractal_dimension_se | radius_worst   symmetry_se   ) {
+   data = 
+   (((   0.999695   0.000305064)   % radius_worst="(11.0000, 16.4000]"   symmetry_se="(-0.0017, 0.0100]"   
+   (   0.5   0.5)   % radius_worst="(16.0000, 33.4000]"   symmetry_se="(-0.0017, 0.0100]"   
+   (   0.5   0.5))   % radius_worst="(33.0000, 35.2000]"   symmetry_se="(-0.0017, 0.0100]"   
+   ((   0.690678   0.309322)   % radius_worst="(11.0000, 16.4000]"   symmetry_se="(0.00000, 0.0200]"   
+   (   0.999434   0.000566251)   % radius_worst="(16.0000, 33.4000]"   symmetry_se="(0.00000, 0.0200]"   
+   (   0.95   0.05))   % radius_worst="(33.0000, 35.2000]"   symmetry_se="(0.00000, 0.0200]"   
+   ((   0.992188   0.0078125)   % radius_worst="(11.0000, 16.4000]"   symmetry_se="(0.00000, 0.0500]"   
+   (   0.5   0.5)   % radius_worst="(16.0000, 33.4000]"   symmetry_se="(0.00000, 0.0500]"   
+   (   0.5   0.5)));   % radius_worst="(33.0000, 35.2000]"   symmetry_se="(0.00000, 0.0500]"   
+}
+
+potential ( radius_worst | texture_worst   smoothness_se   ) {
+   data = 
+   (((   0.999486   0.000257003   0.000257003)   % texture_worst="(15.0000, 21.7000]"   smoothness_se="(-0.0062, 0.0050]"   
+   (   0.333333   0.333333   0.333333)   % texture_worst="(21.000, 31.0000]"   smoothness_se="(-0.0062, 0.0050]"   
+   (   0.333333   0.333333   0.333333))   % texture_worst="(31.000, 40.7000]"   smoothness_se="(-0.0062, 0.0050]"   
+   ((   0.933333   0.0333333   0.0333333)   % texture_worst="(15.0000, 21.7000]"   smoothness_se="(0.0000, 0.0000]"   
+   (   0.333333   0.333333   0.333333)   % texture_worst="(21.000, 31.0000]"   smoothness_se="(0.0000, 0.0000]"   
+   (   0.333333   0.333333   0.333333))   % texture_worst="(31.000, 40.7000]"   smoothness_se="(0.0000, 0.0000]"   
+   ((   0.84989   0.134658   0.0154525)   % texture_worst="(15.0000, 21.7000]"   smoothness_se="(0.0059, 0.0200]"   
+   (   0.000435161   0.99913   0.000435161)   % texture_worst="(21.000, 31.0000]"   smoothness_se="(0.0059, 0.0200]"   
+   (   0.00900901   0.981982   0.00900901)));   % texture_worst="(31.000, 40.7000]"   smoothness_se="(0.0059, 0.0200]"   
+}
+
+potential ( texture_worst | area_worst   ) {
+   data = 
+   ((   0.908637   0.0735189   0.0178444)   % area_worst="(257.00000, 840.6000]"   
+   (   0.00243309   0.995134   0.00243309));   % area_worst="(840.000000, 3893.2000]"   
+}
+
+potential ( perimeter_worst | area_worst   texture_worst   ) {
+   data = 
+   (((   0.999607   0.000392773)   % area_worst="(257.00000, 840.6000]"   texture_worst="(15.0000, 21.7000]"   
+   (   0.5   0.5))   % area_worst="(840.000000, 3893.2000]"   texture_worst="(15.0000, 21.7000]"   
+   ((   0.587379   0.412621)   % area_worst="(257.00000, 840.6000]"   texture_worst="(21.000, 31.0000]"   
+   (   0.998778   0.00122249))   % area_worst="(840.000000, 3893.2000]"   texture_worst="(21.000, 31.0000]"   
+   ((   0.98   0.02)   % area_worst="(257.00000, 840.6000]"   texture_worst="(31.000, 40.7000]"   
+   (   0.5   0.5)));   % area_worst="(840.000000, 3893.2000]"   texture_worst="(31.000, 40.7000]"   
+}
+
+potential ( area_worst | smoothness_worst   ) {
+   data = 
+   ((   0.0042735   0.995726)   % smoothness_worst="(0.000, 0.2000]"   
+   (   0.957906   0.0420945));   % smoothness_worst="(0.0750, 0.1000]"   
+}
+
+potential (smoothness_worst) {
+   data = (  0.193709 0.806291);
+}
+
+potential ( compactness_worst | compactness_se   texture_se   ) {
+   data = 
+   (((   1)   % compactness_se="(-0.0033, 0.0600]"   texture_se="(0.000, 0.7000]"   
+   (   1))   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 0.7000]"   
+   ((   1)   % compactness_se="(-0.0033, 0.0600]"   texture_se="(0.000, 2.2000]"   
+   (   1))   % compactness_se="(0.0000, 0.1000]"   texture_se="(0.000, 2.2000]"   
+   ((   1)   % compactness_se="(-0.0033, 0.0600]"   texture_se="(2.000, 3.7000]"   
+   (   1)));   % compactness_se="(0.0000, 0.1000]"   texture_se="(2.000, 3.7000]"   
+}
+
+potential ( concavity_worst | smoothness_worst   ) {
+   data = 
+   ((   0.67094   0.32906)   % smoothness_worst="(0.000, 0.2000]"   
+   (   0.00102669   0.998973));   % smoothness_worst="(0.0750, 0.1000]"   
+}
+
+potential ( concave points_worst | concavity_worst   ) {
+   data = 
+   ((   0.689873   0.310127)   % concavity_worst="(0.0000, 1.1000]"   
+   (   0.000952381   0.999048));   % concavity_worst="(0.0029, 0.0500]"   
+}
+
+potential ( symmetry_worst | concave points_worst   ) {
+   data = 
+   ((   0.736364   0.263636)   % concave points_worst="(0.000, 0.0000]"   
+   (   0.999089   0.000910747));   % concave points_worst="(0.0009, 0.0500]"   
+}
+
+potential ( fractal_dimension_worst | texture_se   diagnosis   symmetry_worst   ) {
+   data = 
+   ((((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   symmetry_worst="(0.000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   symmetry_worst="(0.000, 0.2000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   symmetry_worst="(0.000, 0.2000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.2000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.2000]"   
+   (   1)))   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.2000]"   
+   (((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=No   symmetry_worst="(0.000, 0.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=No   symmetry_worst="(0.000, 0.6000]"   
+   (   1))   % texture_se="(2.000, 3.7000]"   diagnosis=No   symmetry_worst="(0.000, 0.6000]"   
+   ((   1)   % texture_se="(0.000, 0.7000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.6000]"   
+   (   1)   % texture_se="(0.000, 2.2000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.6000]"   
+   (   1))));   % texture_se="(2.000, 3.7000]"   diagnosis=Yes   symmetry_worst="(0.000, 0.6000]"   
+}
+
+potential ( diagnosis | fractal_dimension_mean   ) {
+   data = 
+   ((   0.000827815   0.999172)   % fractal_dimension_mean="(0.00000, 0.0500]"   
+   (   0.98   0.02)   % fractal_dimension_mean="(0.00000, 0.0900]"   
+   (   0.814079   0.185921));   % fractal_dimension_mean="(0.0419, 0.0500]"   
+}
+
+

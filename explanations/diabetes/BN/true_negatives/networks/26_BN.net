@@ -1,0 +1,153 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.17.0";
+  node_size = (50 50);
+}
+
+node Pregnancies {
+   states = ("(0.0000, 4.6000]" "(4.000, 5.2000]" );
+   label = "Pregnancies";
+   ID = "Pregnancies";
+}
+
+node Glucose {
+   states = ("(22.0000, 56.9000]" "(56.0000, 119.0000]" );
+   label = "Glucose";
+   ID = "Glucose";
+}
+
+node BloodPressure {
+   states = ("(18.0000, 47.9000]" "(47.0000, 54.3000]" "(54.0000, 78.2000]" );
+   label = "BloodPressure";
+   ID = "BloodPressure";
+}
+
+node SkinThickness {
+   states = ("(0.0489, 11.8000]" "(11.000, 18.0000]" "(18.000, 42.4000]" );
+   label = "SkinThickness";
+   ID = "SkinThickness";
+}
+
+node Insulin {
+   states = ("(1.000, 74.0000]" "(74.000, 75.9000]" "(75.00000, 263.8000]" );
+   label = "Insulin";
+   ID = "Insulin";
+}
+
+node BMI {
+   states = ("(20.000, 27.1000]" "(27.0000, 36.2000]" "(4.000, 20.0000]" );
+   label = "BMI";
+   ID = "BMI";
+}
+
+node DiabetesPedigreeFunction {
+   states = ("(0.000, 0.8000]" "(0.0750, 0.3000]" );
+   label = "DiabetesPedigreeFunction";
+   ID = "DiabetesPedigreeFunction";
+}
+
+node Age {
+   states = ("(21.000, 22.0000]" "(22.000, 34.5000]" );
+   label = "Age";
+   ID = "Age";
+}
+
+node Diabetes? {
+   states = (No );
+   label = "Diabetes?";
+   ID = "Diabetes?";
+}
+
+potential ( Pregnancies | Glucose   ) {
+   data = 
+   ((   0.998952   0.00104822)   % Glucose="(22.0000, 56.9000]"   
+   (   0.907407   0.0925926));   % Glucose="(56.0000, 119.0000]"   
+}
+
+potential ( Glucose | BloodPressure   ) {
+   data = 
+   ((   0.295455   0.704545)   % BloodPressure="(18.0000, 47.9000]"   
+   (   0.999138   0.000862069)   % BloodPressure="(47.0000, 54.3000]"   
+   (   0.990385   0.00961538));   % BloodPressure="(54.0000, 78.2000]"   
+}
+
+potential ( BloodPressure | SkinThickness   ) {
+   data = 
+   ((   0.000688705   0.998623   0.000688705)   % SkinThickness="(0.0489, 11.8000]"   
+   (   0.79702   0.0595903   0.143389)   % SkinThickness="(11.000, 18.0000]"   
+   (   0.00438596   0.991228   0.00438596));   % SkinThickness="(18.000, 42.4000]"   
+}
+
+potential ( SkinThickness | Insulin   ) {
+   data = 
+   ((   0.998213   0.000893655   0.000893655)   % Insulin="(1.000, 74.0000]"   
+   (   0.0594203   0.776812   0.163768)   % Insulin="(74.000, 75.9000]"   
+   (   0.992157   0.00392157   0.00392157));   % Insulin="(75.00000, 263.8000]"   
+}
+
+potential ( Insulin | BMI   ) {
+   data = 
+   ((   0.997512   0.00124378   0.00124378)   % BMI="(20.000, 27.1000]"   
+   (   0.973333   0.0133333   0.0133333)   % BMI="(27.0000, 36.2000]"   
+   (   0.130133   0.734933   0.134933));   % BMI="(4.000, 20.0000]"   
+}
+
+potential (BMI) {
+   data = (  0.291939 0.0272331 0.680828);
+}
+
+potential ( DiabetesPedigreeFunction | BMI   ) {
+   data = 
+   ((   0.751866   0.248134)   % BMI="(20.000, 27.1000]"   
+   (   0.02   0.98)   % BMI="(27.0000, 36.2000]"   
+   (   0.0008   0.9992));   % BMI="(4.000, 20.0000]"   
+}
+
+potential ( Age | DiabetesPedigreeFunction   ) {
+   data = 
+   ((   0.462963   0.537037)   % DiabetesPedigreeFunction="(0.000, 0.8000]"   
+   (   0.998952   0.00104822));   % DiabetesPedigreeFunction="(0.0750, 0.3000]"   
+}
+
+potential ( Diabetes? | Pregnancies   BloodPressure   BMI   Age   ) {
+   data = 
+   (((((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(20.000, 27.1000]"   Age="(21.000, 22.0000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(20.000, 27.1000]"   Age="(21.000, 22.0000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(20.000, 27.1000]"   Age="(21.000, 22.0000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(20.000, 27.1000]"   Age="(21.000, 22.0000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(20.000, 27.1000]"   Age="(21.000, 22.0000]"   
+   (   1)))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(20.000, 27.1000]"   Age="(21.000, 22.0000]"   
+   (((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(27.0000, 36.2000]"   Age="(21.000, 22.0000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(27.0000, 36.2000]"   Age="(21.000, 22.0000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(27.0000, 36.2000]"   Age="(21.000, 22.0000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(27.0000, 36.2000]"   Age="(21.000, 22.0000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(27.0000, 36.2000]"   Age="(21.000, 22.0000]"   
+   (   1)))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(27.0000, 36.2000]"   Age="(21.000, 22.0000]"   
+   (((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(4.000, 20.0000]"   Age="(21.000, 22.0000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(4.000, 20.0000]"   Age="(21.000, 22.0000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(4.000, 20.0000]"   Age="(21.000, 22.0000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(4.000, 20.0000]"   Age="(21.000, 22.0000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(4.000, 20.0000]"   Age="(21.000, 22.0000]"   
+   (   1))))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(4.000, 20.0000]"   Age="(21.000, 22.0000]"   
+   ((((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(20.000, 27.1000]"   Age="(22.000, 34.5000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(20.000, 27.1000]"   Age="(22.000, 34.5000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(20.000, 27.1000]"   Age="(22.000, 34.5000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(20.000, 27.1000]"   Age="(22.000, 34.5000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(20.000, 27.1000]"   Age="(22.000, 34.5000]"   
+   (   1)))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(20.000, 27.1000]"   Age="(22.000, 34.5000]"   
+   (((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(27.0000, 36.2000]"   Age="(22.000, 34.5000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(27.0000, 36.2000]"   Age="(22.000, 34.5000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(27.0000, 36.2000]"   Age="(22.000, 34.5000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(27.0000, 36.2000]"   Age="(22.000, 34.5000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(27.0000, 36.2000]"   Age="(22.000, 34.5000]"   
+   (   1)))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(27.0000, 36.2000]"   Age="(22.000, 34.5000]"   
+   (((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(4.000, 20.0000]"   Age="(22.000, 34.5000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(18.0000, 47.9000]"   BMI="(4.000, 20.0000]"   Age="(22.000, 34.5000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(4.000, 20.0000]"   Age="(22.000, 34.5000]"   
+   (   1))   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(47.0000, 54.3000]"   BMI="(4.000, 20.0000]"   Age="(22.000, 34.5000]"   
+   ((   1)   % Pregnancies="(0.0000, 4.6000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(4.000, 20.0000]"   Age="(22.000, 34.5000]"   
+   (   1)))));   % Pregnancies="(4.000, 5.2000]"   BloodPressure="(54.0000, 78.2000]"   BMI="(4.000, 20.0000]"   Age="(22.000, 34.5000]"   
+}
+
+

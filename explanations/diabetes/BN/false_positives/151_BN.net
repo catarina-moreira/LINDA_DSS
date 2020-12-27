@@ -1,0 +1,199 @@
+
+net {
+  name = unnamedBN;
+  software = "aGrUM 0.17.0";
+  node_size = (50 50);
+}
+
+node Pregnancies {
+   states = ("(0.1200, 9.9000]" "(9.0000, 11.1000]" );
+   label = "Pregnancies";
+   ID = "Pregnancies";
+}
+
+node Glucose {
+   states = ("(22.0000, 83.9000]" "(83.00000, 197.1000]" );
+   label = "Glucose";
+   ID = "Glucose";
+}
+
+node BloodPressure {
+   states = ("(1.0000, 45.9000]" "(45.0000, 71.9000]" "(71.00000, 118.6000]" );
+   label = "BloodPressure";
+   ID = "BloodPressure";
+}
+
+node SkinThickness {
+   states = ("(0.00, 19.0000]" "(19.000, 21.7000]" "(21.0000, 77.8000]" );
+   label = "SkinThickness";
+   ID = "SkinThickness";
+}
+
+node Insulin {
+   states = ("(153.00000, 542.0000]" "(2.000, 82.9000]" "(82.00000, 153.5000]" );
+   label = "Insulin";
+   ID = "Insulin";
+}
+
+node BMI {
+   states = ("(1.000, 28.0000]" "(28.000, 47.1000]" "(47.000, 65.0000]" );
+   label = "BMI";
+   ID = "BMI";
+}
+
+node DiabetesPedigreeFunction {
+   states = ("(0.000, 1.8000]" "(0.0000, 0.6000]" );
+   label = "DiabetesPedigreeFunction";
+   ID = "DiabetesPedigreeFunction";
+}
+
+node Age {
+   states = ("(22.1699, 57.7000]" );
+   label = "Age";
+   ID = "Age";
+}
+
+node Diabetes? {
+   states = (No Yes );
+   label = "Diabetes?";
+   ID = "Diabetes?";
+}
+
+potential ( Pregnancies | Glucose   ) {
+   data = 
+   ((   0.998952   0.00104822)   % Glucose="(22.0000, 83.9000]"   
+   (   0.907407   0.0925926));   % Glucose="(83.00000, 197.1000]"   
+}
+
+potential ( Glucose | BloodPressure   ) {
+   data = 
+   ((   0.248134   0.751866)   % BloodPressure="(1.0000, 45.9000]"   
+   (   0.999164   0.00083612)   % BloodPressure="(45.0000, 71.9000]"   
+   (   0.990385   0.00961538));   % BloodPressure="(71.00000, 118.6000]"   
+}
+
+potential (BloodPressure) {
+   data = (  0.291939 0.651416 0.0566449);
+}
+
+potential ( SkinThickness | BloodPressure   ) {
+   data = 
+   ((   0.997512   0.00124378   0.00124378)   % BloodPressure="(1.0000, 45.9000]"   
+   (   0.0858417   0.768116   0.146042)   % BloodPressure="(45.0000, 71.9000]"   
+   (   0.987179   0.00641026   0.00641026));   % BloodPressure="(71.00000, 118.6000]"   
+}
+
+potential ( Insulin | SkinThickness   ) {
+   data = 
+   ((   0.000900901   0.998198   0.000900901)   % SkinThickness="(0.00, 19.0000]"   
+   (   0.183333   0.0398551   0.776812)   % SkinThickness="(19.000, 21.7000]"   
+   (   0.00378788   0.992424   0.00378788));   % SkinThickness="(21.0000, 77.8000]"   
+}
+
+potential ( BMI | Insulin   ) {
+   data = 
+   ((   0.992157   0.00392157   0.00392157)   % Insulin="(153.00000, 542.0000]"   
+   (   0.998596   0.000701754   0.000701754)   % Insulin="(2.000, 82.9000]"   
+   (   0.135009   0.79702   0.0679702));   % Insulin="(82.00000, 153.5000]"   
+}
+
+potential ( DiabetesPedigreeFunction | BMI   ) {
+   data = 
+   ((   0.000823723   0.999176)   % BMI="(1.000, 28.0000]"   
+   (   0.704545   0.295455)   % BMI="(28.000, 47.1000]"   
+   (   0.02   0.98));   % BMI="(47.000, 65.0000]"   
+}
+
+potential ( Age | Glucose   DiabetesPedigreeFunction   BloodPressure   Pregnancies   Insulin   ) {
+   data = 
+   ((((((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   (   1))))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(153.00000, 542.0000]"   
+   ((((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   (   1)))))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(153.00000, 542.0000]"   
+   (((((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   (   1))))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(2.000, 82.9000]"   
+   ((((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   (   1)))))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(2.000, 82.9000]"   
+   (((((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   (   1))))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(0.1200, 9.9000]"   Insulin="(82.00000, 153.5000]"   
+   ((((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(1.0000, 45.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   (   1)))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(45.0000, 71.9000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   (((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   (   1))   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   ((   1)   % Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+   (   1))))));   % Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   BloodPressure="(71.00000, 118.6000]"   Pregnancies="(9.0000, 11.1000]"   Insulin="(82.00000, 153.5000]"   
+}
+
+potential ( Diabetes? | BMI   Glucose   DiabetesPedigreeFunction   ) {
+   data = 
+   ((((   0.5   0.5)   % BMI="(1.000, 28.0000]"   Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   
+   (   0.000621118   0.999379)   % BMI="(28.000, 47.1000]"   Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   
+   (   0.5   0.5))   % BMI="(47.000, 65.0000]"   Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   
+   ((   0.5   0.5)   % BMI="(1.000, 28.0000]"   Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   
+   (   0.5   0.5)   % BMI="(28.000, 47.1000]"   Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   
+   (   0.5   0.5)))   % BMI="(47.000, 65.0000]"   Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.000, 1.8000]"   
+   (((   0.999692   0.000308452)   % BMI="(1.000, 28.0000]"   Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   
+   (   0.998516   0.00148368)   % BMI="(28.000, 47.1000]"   Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   
+   (   0.252577   0.747423))   % BMI="(47.000, 65.0000]"   Glucose="(22.0000, 83.9000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   
+   ((   0.0751553   0.924845)   % BMI="(1.000, 28.0000]"   Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   
+   (   0.5   0.5)   % BMI="(28.000, 47.1000]"   Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   
+   (   0.5   0.5))));   % BMI="(47.000, 65.0000]"   Glucose="(83.00000, 197.1000]"   DiabetesPedigreeFunction="(0.0000, 0.6000]"   
+}
+
+
